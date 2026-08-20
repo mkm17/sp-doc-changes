@@ -1,0 +1,26 @@
+{
+  "date": "2026-06-01",
+  "totalChanged": 2,
+  "pages": [
+    {
+      "title": "SharePoint Authoritative Sites in Copilot Search",
+      "url": "https://learn.microsoft.com/en-us/sharepoint/sharepoint-authoritative-sites",
+      "status": "new",
+      "lastUpdate": "2026",
+      "description": "",
+      "about": "",
+      "changes": [],
+      "category": "Copilot Readiness"
+    },
+    {
+      "title": "SharePoint data deletion in Microsoft 365",
+      "url": "https://learn.microsoft.com/en-us/sharepoint/sharepoint-data-deletion",
+      "status": "new",
+      "lastUpdate": "2026",
+      "description": "",
+      "about": "",
+      "changes": [],
+      "category": "SharePoint Administration"
+    }
+  ]
+}

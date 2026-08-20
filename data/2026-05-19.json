@@ -1,0 +1,66 @@
+{
+  "date": "2026-05-19",
+  "totalChanged": 6,
+  "pages": [
+    {
+      "title": "Data access governance: Everyone except external users report",
+      "url": "https://learn.microsoft.com/en-us/sharepoint/data-access-governance-everyone-except-external-user-report",
+      "status": "deleted",
+      "lastUpdate": "2026",
+      "description": "",
+      "about": "",
+      "changes": [],
+      "category": "Security & Access"
+    },
+    {
+      "title": "Conditional Access policies and SharePoint",
+      "url": "https://learn.microsoft.com/en-us/sharepoint/authentication-context-example",
+      "status": "updated",
+      "lastUpdate": "2026",
+      "description": "",
+      "about": "",
+      "changes": [],
+      "category": "Security & Access"
+    },
+    {
+      "title": "SharePoint Advanced Management features in Microsoft 365 Copilot licenses",
+      "url": "https://learn.microsoft.com/en-us/sharepoint/sharepoint-advanced-management-features-copilot-license",
+      "status": "new",
+      "lastUpdate": "2026",
+      "description": "",
+      "about": "NEW SharePoint Advanced Management",
+      "changes": [],
+      "category": "SharePoint Advanced Management"
+    },
+    {
+      "title": "SharePoint Advanced Management licensing",
+      "url": "https://learn.microsoft.com/en-us/sharepoint/sharepoint-advanced-management-licensing",
+      "status": "deleted",
+      "lastUpdate": "2026",
+      "description": "",
+      "about": "",
+      "changes": [],
+      "category": "SharePoint Advanced Management"
+    },
+    {
+      "title": "Prerequisites for SharePoint Advanced Management",
+      "url": "https://learn.microsoft.com/en-us/sharepoint/sharepoint-advanced-management-prerequisites",
+      "status": "deleted",
+      "lastUpdate": "2026",
+      "description": "",
+      "about": "",
+      "changes": [],
+      "category": "SharePoint Advanced Management"
+    },
+    {
+      "title": "Manage Data access governance reports by using SharePoint Online PowerShell",
+      "url": "https://learn.microsoft.com/en-us/sharepoint/powershell-for-data-access-governance",
+      "status": "updated",
+      "lastUpdate": "2026",
+      "description": "",
+      "about": "",
+      "changes": [],
+      "category": "SharePoint Advanced Management"
+    }
+  ]
+}

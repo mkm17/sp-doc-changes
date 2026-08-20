@@ -1,0 +1,46 @@
+{
+  "date": "2026-07-20",
+  "totalChanged": 4,
+  "pages": [
+    {
+      "title": "Copilot in Microsoft 365 admin center",
+      "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/copilot-for-microsoft-365-admin",
+      "status": "deleted",
+      "lastUpdate": "05/06/2026 03:56:00",
+      "description": "",
+      "about": "",
+      "changes": [],
+      "category": "AI in SharePoint"
+    },
+    {
+      "title": "Get ready for Copilot",
+      "url": "https://learn.microsoft.com/en-us/sharepoint/get-ready-copilot-sharepoint-advanced-management",
+      "status": "deleted",
+      "lastUpdate": "2026",
+      "description": "",
+      "about": "",
+      "changes": [],
+      "category": "Copilot Readiness"
+    },
+    {
+      "title": "Get ready for Copilot",
+      "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/get-ready-copilot-sharepoint-advanced-management",
+      "status": "new",
+      "lastUpdate": "2026",
+      "description": "",
+      "about": "",
+      "changes": [],
+      "category": "Copilot Readiness"
+    },
+    {
+      "title": "SharePoint Embedded",
+      "url": "https://learn.microsoft.com/en-us/sharepoint/dev/embedded/overview",
+      "status": "updated",
+      "lastUpdate": "2026",
+      "description": "",
+      "about": "",
+      "changes": [],
+      "category": "SharePoint Administration"
+    }
+  ]
+}

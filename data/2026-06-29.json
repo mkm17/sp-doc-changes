@@ -1,0 +1,86 @@
+{
+  "date": "2026-06-29",
+  "totalChanged": 8,
+  "pages": [
+    {
+      "title": "Create site ownership policy",
+      "url": "https://learn.microsoft.com/en-us/sharepoint/create-sharepoint-site-ownership-policy",
+      "status": "updated",
+      "lastUpdate": "",
+      "description": "",
+      "about": "",
+      "changes": [],
+      "category": "SharePoint Administration"
+    },
+    {
+      "title": "Site lifecycle management",
+      "url": "https://learn.microsoft.com/en-us/sharepoint/site-lifecycle-management",
+      "status": "updated",
+      "lastUpdate": "",
+      "description": "",
+      "about": "",
+      "changes": [],
+      "category": "SharePoint Administration"
+    },
+    {
+      "title": "Site ownership policy",
+      "url": "https://learn.microsoft.com/en-us/sharepoint/site-ownership-policy",
+      "status": "new",
+      "lastUpdate": "",
+      "description": "",
+      "about": "",
+      "changes": [],
+      "category": "SharePoint Administration"
+    },
+    {
+      "title": "Inactive site policy",
+      "url": "https://learn.microsoft.com/en-us/sharepoint/inactive-site-policy",
+      "status": "new",
+      "lastUpdate": "",
+      "description": "",
+      "about": "",
+      "changes": [],
+      "category": "Copilot Readiness"
+    },
+    {
+      "title": "SharePoint Authoritative Sites in Copilot Search",
+      "url": "https://learn.microsoft.com/en-us/sharepoint/sharepoint-authoritative-sites",
+      "status": "updated",
+      "lastUpdate": "",
+      "description": "",
+      "about": "",
+      "changes": [],
+      "category": "SharePoint Administration"
+    },
+    {
+      "title": "Extend AI with skills",
+      "url": "https://learn.microsoft.com/en-us/sharepoint/copilot-in-sharepoint-skills",
+      "status": "updated",
+      "lastUpdate": "",
+      "description": "",
+      "about": "",
+      "changes": [],
+      "category": "SharePoint Administration"
+    },
+    {
+      "title": "Home sites",
+      "url": "https://learn.microsoft.com/en-us/sharepoint/homesitesimprovements",
+      "status": "updated",
+      "lastUpdate": "",
+      "description": "",
+      "about": "",
+      "changes": [],
+      "category": "SharePoint Administration"
+    },
+    {
+      "title": "Home sites",
+      "url": "https://learn.microsoft.com/en-us/sharepoint/home-sites-improvements",
+      "status": "new",
+      "lastUpdate": "New sections added: SharePoint site lifecycle management, Benefits of site lifecycle management, Types of site lifecycle management policies, Site ownership policies, Inactive site policies",
+      "description": "",
+      "about": "",
+      "changes": [],
+      "category": "SharePoint Administration"
+    }
+  ]
+}

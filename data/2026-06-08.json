@@ -1,0 +1,16 @@
+{
+  "date": "2026-06-08",
+  "totalChanged": 1,
+  "pages": [
+    {
+      "title": "What this page is about",
+      "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/connectors/overview",
+      "status": "updated",
+      "lastUpdate": "June 2, 2026",
+      "description": "Learn how your organization can use Microsoft 365 Copilot connectors to extend Microsoft Search and Microsoft 365 Copilot experiences. Get information about the types of Copilot connectors, requirements, and management and licensing information.",
+      "about": "",
+      "changes": [],
+      "category": "Copilot Readiness"
+    }
+  ]
+}

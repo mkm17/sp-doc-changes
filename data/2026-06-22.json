@@ -1,0 +1,102 @@
+{
+  "date": "2026-06-22",
+  "totalChanged": 8,
+  "pages": [
+    {
+      "title": "Get started with Copilot in SharePoint",
+      "url": "https://learn.microsoft.com/en-us/sharepoint/copilot-in-sharepoint-get-started",
+      "status": "updated",
+      "lastUpdate": "2026",
+      "description": "",
+      "about": "",
+      "changes": [
+        "Major update reflecting the rebrand from 'AI in SharePoint' to 'Copilot in SharePoint'. The preview model changed from opt-in to opt-out — no admin action is now required to receive it. The entire Anthropic sub-processor configuration section was removed. New 'Usage limits' section added describing daily and weekly per-user limits during preview. Prerequisites simplified: explicit PowerShell opt-in is no longer required."
+      ],
+      "category": "Copilot Readiness"
+    },
+    {
+      "title": "Create document library with AI",
+      "url": "https://learn.microsoft.com/en-us/sharepoint/copilot-in-sharepoint-create-document-library",
+      "status": "updated",
+      "lastUpdate": "2026",
+      "description": "",
+      "about": "",
+      "changes": [
+        "Rebranded from 'AI in SharePoint' to 'Copilot in SharePoint'. Use case examples are now better structured with distinct categories: Legal and compliance, Project management, and Human resources sections were added alongside existing Finance and accounting examples. Opt-in requirement notice removed."
+      ],
+      "category": "AI in SharePoint"
+    },
+    {
+      "title": "Create autofill columns",
+      "url": "https://learn.microsoft.com/en-us/sharepoint/copilot-in-sharepoint-create-autofill-columns",
+      "status": "updated",
+      "lastUpdate": "2026",
+      "description": "",
+      "about": "",
+      "changes": [
+        "Rebranded to 'Copilot in SharePoint'. The workflow description was significantly rewritten with clearer step-by-step instructions: launch quick action, use suggested/custom prompt, save changes. New detail about the chat panel opening with suggested prompts. Opt-in requirement notice removed."
+      ],
+      "category": "AI in SharePoint"
+    },
+    {
+      "title": "Automate workflows in a library",
+      "url": "https://learn.microsoft.com/en-us/sharepoint/copilot-in-sharepoint-automate-workflows",
+      "status": "updated",
+      "lastUpdate": "2026",
+      "description": "",
+      "about": "",
+      "changes": [
+        "Rebranded from 'AI in SharePoint' to 'Copilot in SharePoint'. URL slug changed. Opt-in requirement notice removed. Minor text updates throughout."
+      ],
+      "category": "AI in SharePoint"
+    },
+    {
+      "title": "Create views in a library",
+      "url": "https://learn.microsoft.com/en-us/sharepoint/copilot-in-sharepoint-create-views",
+      "status": "updated",
+      "lastUpdate": "2026",
+      "description": "",
+      "about": "",
+      "changes": [
+        "Rebranded to 'Copilot in SharePoint'. URL slug changed. Opt-in requirement notice removed. Minor wording updates."
+      ],
+      "category": "AI in SharePoint"
+    },
+    {
+      "title": "File processing status",
+      "url": "https://learn.microsoft.com/en-us/sharepoint/copilot-in-sharepoint-file-processing-status",
+      "status": "updated",
+      "lastUpdate": "2026",
+      "description": "",
+      "about": "",
+      "changes": [
+        "Rebranded to 'Copilot in SharePoint'. URL slug changed. Opt-in requirement notice removed."
+      ],
+      "category": "AI in SharePoint"
+    },
+    {
+      "title": "Structured document generation",
+      "url": "https://learn.microsoft.com/en-us/sharepoint/copilot-in-sharepoint-structured-document-generation",
+      "status": "updated",
+      "lastUpdate": "2026",
+      "description": "",
+      "about": "",
+      "changes": [
+        "Rebranded to 'Copilot in SharePoint'. New 'Use Power Automate with structured document generation' section added with three new preview capabilities: 'Form submitted (Preview)' trigger for starting workflows on form submission, 'Get form metadata (Preview)' for retrieving form structure, and 'Generate document from form (Preview)' for automated document creation from mapped input data. These enable end-to-end automated document workflows."
+      ],
+      "category": "AI in SharePoint"
+    },
+    {
+      "title": "Extend Copilot in SharePoint with skills",
+      "url": "https://learn.microsoft.com/en-us/sharepoint/copilot-in-sharepoint-skills",
+      "status": "updated",
+      "lastUpdate": "2026",
+      "description": "",
+      "about": "",
+      "changes": [
+        "Rebranded to 'Copilot in SharePoint'. Content reorganized and clarified. New explicit statement that skills can't connect to external systems or execute custom code — they can only perform actions the user already has permission to do. Added note about editing .md files directly. Clarified that skills are a native capability with no separate admin controls."
+      ],
+      "category": "AI in SharePoint"
+    }
+  ]
+}

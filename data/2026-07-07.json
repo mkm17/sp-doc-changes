@@ -1,0 +1,26 @@
+{
+  "date": "2026-07-07",
+  "totalChanged": 2,
+  "pages": [
+    {
+      "title": "Home sites",
+      "url": "https://learn.microsoft.com/en-us/sharepoint/homesitesimprovements",
+      "status": "updated",
+      "lastUpdate": "",
+      "description": "",
+      "about": "",
+      "changes": [],
+      "category": "SharePoint Administration"
+    },
+    {
+      "title": "OneDrive storage over quota enforcement FAQ",
+      "url": "https://learn.microsoft.com/en-us/sharepoint/site-storage-overquota-enforcement-faq",
+      "status": "updated",
+      "lastUpdate": "",
+      "description": "",
+      "about": "",
+      "changes": [],
+      "category": "SharePoint Administration"
+    }
+  ]
+}

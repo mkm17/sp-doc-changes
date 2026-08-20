@@ -1,0 +1,26 @@
+{
+  "date": "2026-07-13",
+  "totalChanged": 2,
+  "pages": [
+    {
+      "title": "What's new for SharePoint home sites",
+      "url": "https://learn.microsoft.com/en-us/sharepoint/homesitesimprovements",
+      "status": "updated",
+      "lastUpdate": "2026",
+      "description": "Home site updates. Viva Connections is now SharePoint app in Teams.",
+      "about": "This page documents the SharePoint home site updates rolling out from May–June 2026. It covers the rebranding of Viva Connections to \"SharePoint app in Teams\" and new web parts and configuration options available to SharePoint administrators for their intranet landing pages.",
+      "changes": [],
+      "category": "SharePoint Administration"
+    },
+    {
+      "title": "OneDrive storage over quota enforcement FAQ",
+      "url": "https://learn.microsoft.com/en-us/sharepoint/site-storage-overquota-enforcement-faq",
+      "status": "updated",
+      "lastUpdate": "2026",
+      "description": "FAQ for how OneDrive for Business enforces per-user storage quotas based on user license.",
+      "about": "This FAQ explains how OneDrive for Business enforces per-user storage quotas tied to the user's license, what happens when storage limits are exceeded, and how to restore access to files when over quota.",
+      "changes": [],
+      "category": "OneDrive Sync"
+    }
+  ]
+}

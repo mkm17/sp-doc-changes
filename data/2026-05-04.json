@@ -1,0 +1,186 @@
+{
+  "date": "2026-05-04",
+  "totalChanged": 18,
+  "pages": [
+    {
+      "title": "/microsoft-365/copilot/connectors/overview?context=/microsoft-365/admin/context/admin",
+      "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/connectors/overview",
+      "status": "updated",
+      "lastUpdate": "04/03/2026 02:11:00",
+      "description": "Learn how your organization can use Microsoft 365 Copilot connectors to extend Microsoft Search and Microsoft 365 Copilot experiences. Get information about the types of Copilot connectors",
+      "about": "",
+      "changes": [],
+      "category": "SharePoint Administration"
+    },
+    {
+      "title": "/microsoft-365/copilot/connectors/overview?toc=/microsoft-365/admin/toc.json&bc=/microsoft-365/admin/breadcrumb/toc.json",
+      "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/connectors/overview",
+      "status": "updated",
+      "lastUpdate": "04/03/2026 02:11:00",
+      "description": "Learn how your organization can use Microsoft 365 Copilot connectors to extend Microsoft Search and Microsoft 365 Copilot experiences. Get information about the types of Copilot connectors",
+      "about": "",
+      "changes": [],
+      "category": "SharePoint Administration"
+    },
+    {
+      "title": "/microsoft-365/copilot/copilot-for-microsoft-365-admin?context=/microsoft-365/admin/context/admin",
+      "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/copilot-for-microsoft-365-admin",
+      "status": "updated",
+      "lastUpdate": "03/28/2026 07:43:00",
+      "description": "Learn how to use Copilot in Microsoft 365 admin centers to automate tasks",
+      "about": "",
+      "changes": [],
+      "category": "SharePoint Administration"
+    },
+    {
+      "title": "/microsoft-365/copilot/copilot-for-microsoft-365-admin?toc=/microsoft-365/admin/toc.json&bc=/microsoft-365/admin/breadcrumb/toc.json",
+      "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/copilot-for-microsoft-365-admin",
+      "status": "updated",
+      "lastUpdate": "03/28/2026 07:43:00",
+      "description": "Learn how to use Copilot in Microsoft 365 admin centers to automate tasks",
+      "about": "",
+      "changes": [],
+      "category": "SharePoint Administration"
+    },
+    {
+      "title": "get-ready-copilot-sharepoint-advanced-management",
+      "url": "https://learn.microsoft.com/en-us/sharepoint/get-ready-copilot-sharepoint-advanced-management",
+      "status": "updated",
+      "lastUpdate": "2026",
+      "description": "Prepare for Microsoft 365 Copilot with SharePoint Advanced Management to reduce oversharing",
+      "about": "",
+      "changes": [],
+      "category": "SharePoint Administration"
+    },
+    {
+      "title": "/troubleshoot/microsoft-365-apps/",
+      "url": "https://learn.microsoft.com/en-us/troubleshoot/microsoft-365-apps/",
+      "status": "new",
+      "lastUpdate": "11/20/2025 18:03:00",
+      "description": "Microsoft 365 provides online services and server products for your business with solutions for small to enterprise scale. This page provides guidance for troubleshooting issues with these products and services.",
+      "about": "",
+      "changes": [],
+      "category": "SharePoint Administration"
+    },
+    {
+      "title": "/autopilot/overview?context=/microsoft-365/admin/context/admin",
+      "url": "https://learn.microsoft.com/en-us/autopilot/overview",
+      "status": "updated",
+      "lastUpdate": "02/05/2026 18:36:00",
+      "description": "Windows Autopilot is a collection of technologies used to set up and pre-configure new devices",
+      "about": "",
+      "changes": [],
+      "category": "SharePoint Administration"
+    },
+    {
+      "title": "/autopilot/overview?toc=/microsoft-365/admin/toc.json&bc=/microsoft-365/admin/breadcrumb/toc.json",
+      "url": "https://learn.microsoft.com/en-us/autopilot/overview",
+      "status": "updated",
+      "lastUpdate": "02/05/2026 18:36:00",
+      "description": "Windows Autopilot is a collection of technologies used to set up and pre-configure new devices",
+      "about": "",
+      "changes": [],
+      "category": "SharePoint Administration"
+    },
+    {
+      "title": "/intune/endpoint-analytics/adoption-score?context=/microsoft-365/admin/context/admin",
+      "url": "https://learn.microsoft.com/en-us/intune/endpoint-analytics/adoption-score",
+      "status": "updated",
+      "lastUpdate": "04/09/2026 22:34:00",
+      "description": "Learn how Microsoft Adoption Score integrates endpoint analytics to provide insights on device performance",
+      "about": "",
+      "changes": [],
+      "category": "SharePoint Administration"
+    },
+    {
+      "title": "/intune/endpoint-analytics/adoption-score?context=/microsoft-365/admin/context/admin",
+      "url": "https://learn.microsoft.com/en-us/intune/endpoint-analytics/adoption-score",
+      "status": "updated",
+      "lastUpdate": "04/09/2026 22:34:00",
+      "description": "Learn how Microsoft Adoption Score integrates endpoint analytics to provide insights on device performance",
+      "about": "",
+      "changes": [],
+      "category": "SharePoint Administration"
+    },
+    {
+      "title": "/intune/endpoint-analytics/adoption-score?toc=/microsoft-365/admin/toc.json&bc=/microsoft-365/admin/breadcrumb/toc.json",
+      "url": "https://learn.microsoft.com/en-us/intune/endpoint-analytics/adoption-score",
+      "status": "updated",
+      "lastUpdate": "04/09/2026 22:34:00",
+      "description": "Learn how Microsoft Adoption Score integrates endpoint analytics to provide insights on device performance",
+      "about": "",
+      "changes": [],
+      "category": "SharePoint Administration"
+    },
+    {
+      "title": "/microsoft-365-apps/deploy/manage-software-download-settings-office-365?context=/microsoft-365/admin/context/admin",
+      "url": "https://learn.microsoft.com/en-us/microsoft-365-apps/deploy/manage-software-download-settings-office-365",
+      "status": "new",
+      "lastUpdate": "12/09/2025 09:55:00",
+      "description": "Provides admins with information to help them configure Microsoft 365 installation options in the Microsoft 365 admin center.",
+      "about": "",
+      "changes": [],
+      "category": "SharePoint Administration"
+    },
+    {
+      "title": "/microsoft-365-apps/deploy/manage-software-download-settings-office-365?toc=/microsoft-365/admin/toc.json&bc=/microsoft-365/admin/breadcrumb/toc.json",
+      "url": "https://learn.microsoft.com/en-us/microsoft-365-apps/deploy/manage-software-download-settings-office-365",
+      "status": "new",
+      "lastUpdate": "12/09/2025 09:55:00",
+      "description": "Provides admins with information to help them configure Microsoft 365 installation options in the Microsoft 365 admin center.",
+      "about": "",
+      "changes": [],
+      "category": "SharePoint Administration"
+    },
+    {
+      "title": "/microsoftteams/deploy-overview?context=/microsoft-365/admin/context/admin",
+      "url": "https://learn.microsoft.com/en-us/microsoftteams/deploy-overview",
+      "status": "new",
+      "lastUpdate": "04/10/2026 03:39:00",
+      "description": "Learn which Microsoft Teams deployment option is right for you.",
+      "about": "",
+      "changes": [],
+      "category": "SharePoint Administration"
+    },
+    {
+      "title": "/microsoftteams/deploy-overview?toc=/microsoft-365/admin/toc.json&bc=/microsoft-365/admin/breadcrumb/toc.json",
+      "url": "https://learn.microsoft.com/en-us/microsoftteams/deploy-overview",
+      "status": "new",
+      "lastUpdate": "04/10/2026 03:39:00",
+      "description": "Learn which Microsoft Teams deployment option is right for you.",
+      "about": "",
+      "changes": [],
+      "category": "SharePoint Agents"
+    },
+    {
+      "title": "/graph/mcp-server/overview",
+      "url": "https://learn.microsoft.com/en-us/graph/mcp-server/overview",
+      "status": "new",
+      "lastUpdate": "12/03/2025 23:08:00",
+      "description": "Microsoft MCP Server for Enterprise enables AI agents to query enterprise identity data using natural language through the Model Context Protocol.",
+      "about": "",
+      "changes": [],
+      "category": "SharePoint Administration"
+    },
+    {
+      "title": "/graph/mcp-server/overview?context=/microsoft-365/admin/context/admin",
+      "url": "https://learn.microsoft.com/en-us/graph/mcp-server/overview",
+      "status": "new",
+      "lastUpdate": "12/03/2025 23:08:00",
+      "description": "Microsoft MCP Server for Enterprise enables AI agents to query enterprise identity data using natural language through the Model Context Protocol.",
+      "about": "",
+      "changes": [],
+      "category": "SharePoint Administration"
+    },
+    {
+      "title": "/microsoft-365/copilot/copilot-agent-store?toc=/microsoft-365/admin/toc.json&bc=/microsoft-365/admin/breadcrumb/toc.json",
+      "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/copilot-agent-store",
+      "status": "new",
+      "lastUpdate": "04/20/2026 22:44:00",
+      "description": "Learn about Agent Store in Microsoft 365 Copilot.",
+      "about": "",
+      "changes": [],
+      "category": "SharePoint Administration"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "date": "2026-05-25",
+  "totalChanged": 6,
+  "pages": [
+    {
+      "title": "SAM Features in Microsoft 365 Copilot Licenses",
+      "url": "https://learn.microsoft.com/en-us/sharepoint/sharepoint-advanced-management-features-copilot-license",
+      "status": "new",
+      "lastUpdate": "2026",
+      "description": "Get the details about SharePoint Advanced Management features that are included with Microsoft 365 Copilot licenses.",
+      "about": "",
+      "changes": [],
+      "category": "Copilot Readiness"
+    },
+    {
+      "title": "EEEU Activity Report (Data Access Governance)",
+      "url": "https://learn.microsoft.com/en-us/sharepoint/data-access-governance-everyone-except-external-user-report",
+      "status": "updated",
+      "lastUpdate": "2026",
+      "description": "In this article, you learn how to get the 'Everyone except external users' (EEEU) activity report to monitor sharing activities for SharePoint sites in your organization.",
+      "about": "",
+      "changes": [],
+      "category": "Security & Access"
+    },
+    {
+      "title": "Authentication Context Example",
+      "url": "https://learn.microsoft.com/en-us/sharepoint/authentication-context-example",
+      "status": "updated",
+      "lastUpdate": "2026",
+      "description": "Learn about how to use Microsoft Entra Conditional Access and authentication context with SharePoint sites and sensitivity labels.",
+      "about": "",
+      "changes": [],
+      "category": "Security & Access"
+    },
+    {
+      "title": "PowerShell for Data Access Governance",
+      "url": "https://learn.microsoft.com/en-us/sharepoint/powershell-for-data-access-governance",
+      "status": "updated",
+      "lastUpdate": "2026",
+      "description": "Learn about how to use SharePoint Online PowerShell module to manage Data access governance reports, including licensing and PowerShell requirements.",
+      "about": "",
+      "changes": [],
+      "category": "SharePoint Administration"
+    },
+    {
+      "title": "SharePoint Advanced Management Licensing",
+      "url": "https://learn.microsoft.com/en-us/sharepoint/sharepoint-advanced-management-licensing",
+      "status": "deleted",
+      "lastUpdate": "2026",
+      "description": "Learn how SharePoint Advanced Management licensing works, including details about Microsoft 365 Copilot licenses that include SharePoint Advanced Management features.",
+      "about": "",
+      "changes": [],
+      "category": "SharePoint Advanced Management"
+    },
+    {
+      "title": "Prerequisites for SharePoint Advanced Management",
+      "url": "https://learn.microsoft.com/en-us/sharepoint/sharepoint-advanced-management-prerequisites",
+      "status": "new",
+      "lastUpdate": "2026",
+      "description": "Understand the prerequisites for SharePoint Advanced Management, including licensing and PowerShell requirements.",
+      "about": "",
+      "changes": [],
+      "category": "SharePoint Advanced Management"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "date": "2026-08-05",
+  "totalChanged": 2,
+  "pages": [
+    {
+      "title": "New SharePoint experience (Preview)",
+      "url": "https://learn.microsoft.com/en-us/sharepoint/enable-new-sharepoint-experience",
+      "status": "updated",
+      "lastUpdate": "July 31, 2026",
+      "description": "This article describes the new SharePoint experience and its features.",
+      "about": "Describes the new SharePoint experience — a redesigned interface for SharePoint Online that replaces the classic navigation with a modernized home page, app bar, and site experience. Covers feature details, rollout timeline, and admin controls.",
+      "changes": [
+        "Public Preview ended: The notice that \"Public Preview concluded on May 4\" and rollout via standard release has been removed — the feature is now in general availability.",
+        "Heading renamed: \"Enable the new SharePoint experience\" → \"New SharePoint Experience\" — reflecting it is no longer opt-in.",
+        "Terminology update: \"SharePoint start page\" changed to \"SharePoint home page.\"",
+        "Preview toggle removed: The mention of the app bar toggle that allowed users to switch back to the previous experience (available only during preview) has been removed."
+      ],
+      "category": "SharePoint Advanced Management"
+    },
+    {
+      "title": "Get sites and files shared via special SharePoint groups",
+      "url": "https://learn.microsoft.com/en-us/sharepoint/data-access-governance-detailed-eeeu-everyone-permissions-report",
+      "status": "new",
+      "lastUpdate": "July 30, 2026",
+      "description": "In this article, you learn how to get item-level permission details for content shared with 'Everyone except external users' (EEEU) and 'Everyone'.",
+      "about": "Documents a new Data Access Governance snapshot report in SharePoint Advanced Management. This report provides exact item-level permission details for every item where the special SharePoint groups \"Everyone except external users\" (EEEU) or \"Everyone\" are recipients — helping admins identify and remediate oversharing risks across their tenant.",
+      "changes": [
+        "New page: This is a newly published documentation page — no previous version existed.",
+        "Key content: Explains what the EEEU/Everyone permissions report shows, when to use it, how to generate it via the SharePoint admin center or PowerShell, and how to download and interpret the results.",
+        "Use case: Enables admins to find exactly where oversharing happens and fix it through scripting rather than relying on individual site owners."
+      ],
+      "category": "SharePoint Administration"
+    }
+  ]
+}

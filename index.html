@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>M365 Documentation Changelog</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Segoe+UI:wght@400;600;700&display=swap');
+:root {
+  --bg: #faf9f8; --surface: #ffffff; --surface-secondary: #f3f2f1;
+  --text: #242424; --text-secondary: #616161; --text-tertiary: #8a8886;
+  --border: #edebe9; --border-strong: #d2d0ce;
+  --brand: #0078d4; --brand-hover: #106ebe; --brand-light: #deecf9; --brand-bg: #eff6fc;
+  --success: #107c10; --success-bg: #dff6dd; --success-border: #9fd89f;
+  --warning: #797600; --warning-bg: #fff4ce; --warning-border: #ffe98a;
+  --danger: #d13438; --danger-bg: #fde7e9;
+  --purple: #5c2d91; --purple-bg: #f0e6fa;
+  --teal: #038387; --teal-bg: #d7f0f1;
+  --orange: #ca5010; --orange-bg: #fff1e6;
+  --radius: 4px; --radius-lg: 8px;
+  --shadow-sm: 0 1.6px 3.6px rgba(0,0,0,.04), 0 0.3px 0.9px rgba(0,0,0,.04);
+  --shadow-md: 0 3.2px 7.2px rgba(0,0,0,.06), 0 0.6px 1.8px rgba(0,0,0,.04);
+  --shadow-lg: 0 6.4px 14.4px rgba(0,0,0,.08), 0 1.2px 3.6px rgba(0,0,0,.04);
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif; background: var(--bg); color: var(--text); line-height: 1.5; -webkit-font-smoothing: antialiased; }
+
+/* ── Top nav bar ── */
+.topbar {
+  background: #242424; color: #fff; padding: 0 24px; height: 48px;
+  display: flex; align-items: center; gap: 16px; font-size: 13px;
+}
+.topbar-logo { display: flex; align-items: center; gap: 8px; font-weight: 600; font-size: 14px; }
+.topbar-logo svg { width: 20px; height: 20px; fill: #fff; }
+.topbar-sep { width: 1px; height: 24px; background: rgba(255,255,255,0.2); }
+.topbar-nav { display: flex; gap: 4px; }
+.topbar-nav button { background: none; border: none; color: rgba(255,255,255,0.75); padding: 6px 12px;
+  border-radius: var(--radius); cursor: pointer; font: inherit; font-size: 13px; transition: all 0.1s; }
+.topbar-nav button:hover { background: rgba(255,255,255,0.1); color: #fff; }
+.topbar-nav button.active { background: rgba(255,255,255,0.15); color: #fff; }
+
+/* ── Hero / Page header ── */
+.page-header {
+  background: var(--surface); border-bottom: 1px solid var(--border);
+  padding: 32px 24px 28px;
+}
+.page-header-inner { max-width: 1200px; margin: 0 auto; }
+.breadcrumb { font-size: 12px; color: var(--text-tertiary); margin-bottom: 12px; }
+.breadcrumb a { color: var(--brand); text-decoration: none; }
+.page-header h1 { font-size: 28px; font-weight: 700; color: var(--text); margin-bottom: 8px; }
+.page-header .subtitle { font-size: 14px; color: var(--text-secondary); max-width: 680px; }
+.header-stats { display: flex; gap: 32px; margin-top: 20px; }
+.header-stat { display: flex; flex-direction: column; }
+.header-stat-num { font-size: 24px; font-weight: 700; color: var(--brand); }
+.header-stat-label { font-size: 11px; color: var(--text-tertiary); text-transform: uppercase; letter-spacing: 0.5px; }
+
+/* ── Layout ── */
+.container { max-width: 1200px; margin: 0 auto; padding: 24px; }
+.layout { display: grid; grid-template-columns: 260px 1fr; gap: 24px; }
+@media (max-width: 860px) { .layout { grid-template-columns: 1fr; } .sidebar { position: static !important; } }
+
+/* ── Sidebar ── */
+.sidebar { position: sticky; top: 24px; align-self: start; }
+.sidebar-section { margin-bottom: 24px; }
+.sidebar-title { font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.4px;
+  color: var(--text-tertiary); padding: 0 12px; margin-bottom: 8px; }
+.search-box { width: 100%; padding: 8px 12px 8px 36px; border: 1px solid var(--border-strong); border-radius: var(--radius);
+  font-size: 13px; font-family: inherit; background: var(--surface) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%238a8886' stroke-width='2'%3E%3Ccircle cx='11' cy='11' r='8'/%3E%3Cline x1='21' y1='21' x2='16.65' y2='16.65'/%3E%3C/svg%3E") 10px center no-repeat; }
+.search-box:focus { outline: none; border-color: var(--brand); box-shadow: 0 0 0 1px var(--brand); }
+
+.week-list { list-style: none; }
+.week-item { padding: 7px 12px; border-radius: var(--radius); cursor: pointer; display: flex; justify-content: space-between;
+  align-items: center; font-size: 13px; transition: background 0.1s; border: 1px solid transparent; }
+.week-item:hover { background: var(--surface-secondary); }
+.week-item.active { background: var(--brand-bg); border-color: var(--brand-light); color: var(--brand); font-weight: 600; }
+.week-item .count { font-size: 11px; padding: 1px 7px; border-radius: 10px; background: var(--surface-secondary); color: var(--text-secondary); font-weight: 600; min-width: 22px; text-align: center; }
+.week-item.active .count { background: var(--brand-light); color: var(--brand); }
+.week-item.zero { color: var(--text-tertiary); }
+.week-item.zero .count { opacity: 0.5; }
+
+/* ── Tracked sources panel ── */
+.sources-panel { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius-lg);
+  padding: 16px; font-size: 12px; }
+.source-item { display: flex; align-items: flex-start; gap: 10px; padding: 8px 0;
+  border-bottom: 1px solid var(--border); }
+.source-item:last-child { border-bottom: none; padding-bottom: 0; }
+.source-item:first-child { padding-top: 0; }
+.source-icon { width: 28px; height: 28px; border-radius: var(--radius); display: flex; align-items: center;
+  justify-content: center; flex-shrink: 0; font-size: 14px; }
+.source-icon.sp { background: var(--teal-bg); color: var(--teal); }
+.source-icon.m365 { background: var(--purple-bg); color: var(--purple); }
+.source-icon.od { background: var(--brand-bg); color: var(--brand); }
+.source-name { font-weight: 600; color: var(--text); font-size: 12px; }
+.source-desc { color: var(--text-tertiary); font-size: 11px; line-height: 1.4; }
+.source-url { color: var(--brand); text-decoration: none; font-size: 11px; }
+.source-url:hover { text-decoration: underline; }
+
+/* ── Main content ── */
+.main-content { min-height: 400px; }
+.week-header { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px;
+  margin-bottom: 16px; }
+.week-title { font-size: 20px; font-weight: 700; }
+.week-badge { font-size: 12px; padding: 4px 12px; border-radius: var(--radius); background: var(--brand-bg); color: var(--brand); font-weight: 600; }
+
+.filters { display: flex; flex-wrap: wrap; gap: 4px; margin-bottom: 16px; }
+.filter-btn { padding: 5px 12px; border: 1px solid var(--border-strong); border-radius: var(--radius); background: var(--surface);
+  cursor: pointer; font-size: 12px; font-family: inherit; transition: all 0.1s; color: var(--text-secondary); }
+.filter-btn:hover { border-color: var(--brand); color: var(--brand); background: var(--brand-bg); }
+.filter-btn.active { background: var(--brand); color: #fff; border-color: var(--brand); }
+
+/* ── Category colors for filter chips ── */
+.cat-color { width: 8px; height: 8px; border-radius: 50%; display: inline-block; margin-right: 4px; }
+
+/* ── Cards ── */
+.card { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius-lg);
+  padding: 20px; margin-bottom: 12px; box-shadow: var(--shadow-sm); transition: box-shadow 0.15s; }
+.card:hover { box-shadow: var(--shadow-md); }
+.card-top { display: flex; justify-content: space-between; align-items: flex-start; gap: 10px; margin-bottom: 6px; }
+.card h3 { font-size: 14px; font-weight: 600; line-height: 1.4; }
+.card h3 a { color: var(--text); text-decoration: none; }
+.card h3 a:hover { color: var(--brand); text-decoration: underline; }
+.badges { display: flex; gap: 4px; flex-shrink: 0; flex-wrap: wrap; }
+.badge { font-size: 10px; font-weight: 600; padding: 2px 8px; border-radius: var(--radius); text-transform: uppercase; letter-spacing: 0.3px; }
+.badge-new { background: var(--success-bg); color: var(--success); }
+.badge-updated { background: var(--brand-bg); color: var(--brand); }
+.badge-deleted { background: var(--danger-bg); color: var(--danger); }
+.badge-rebranded { background: var(--orange-bg); color: var(--orange); }
+.badge-cat { background: var(--surface-secondary); color: var(--text-secondary); }
+
+.card-meta { font-size: 12px; color: var(--text-tertiary); margin-bottom: 10px; }
+.card-meta a { color: var(--brand); text-decoration: none; }
+.card-meta a:hover { text-decoration: underline; }
+.card-desc { font-size: 13px; color: var(--text-secondary); margin-bottom: 12px; padding-bottom: 12px; border-bottom: 1px solid var(--border); }
+
+.section-box { padding: 12px 14px; border-radius: var(--radius); margin-bottom: 8px; font-size: 13px; line-height: 1.5; }
+.section-box:last-child { margin-bottom: 0; }
+.section-box h4 { font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.4px; margin-bottom: 6px; }
+.about-box { background: var(--success-bg); border-left: 3px solid var(--success-border); }
+.about-box h4 { color: var(--success); }
+.changes-box { background: var(--warning-bg); border-left: 3px solid var(--warning-border); }
+.changes-box h4 { color: var(--warning); }
+.changes-box ul { margin: 0; padding-left: 16px; }
+.changes-box li { margin-bottom: 4px; }
+
+.empty-state { text-align: center; padding: 60px 20px; color: var(--text-tertiary); font-size: 14px; }
+.welcome-state { text-align: center; padding: 80px 20px; color: var(--text-tertiary); }
+.welcome-state p { max-width: 400px; margin: 0 auto; font-size: 14px; }
+
+/* ── View toggle (Changelog / Sources) ── */
+.view-tabs { display: none; } /* handled by topbar nav */
+</style>
+</head>
+<body>
+
+<!-- Top navigation bar -->
+<div class="topbar">
+  <div class="topbar-logo">
+    <svg viewBox="0 0 24 24"><path d="M11 3.5V12h8.5c0-4.69-3.81-8.5-8.5-8.5zM4.5 12c0 4.69 3.81 8.5 8.5 8.5V12H4.5z"/><path d="M13 4.06V11h6.94A7.49 7.49 0 0 0 13 4.06z" opacity=".5"/></svg>
+    M365 Doc Changelog
+  </div>
+  <div class="topbar-sep"></div>
+  <div class="topbar-nav">
+    <button class="active" onclick="showView('changelog')">Changelog</button>
+    <button onclick="showView('sources')">Tracked Sources</button>
+  </div>
+  <div style="margin-left:auto;"><a href="https://michalkornet.com/" target="_blank" rel="noopener" style="color:rgba(255,255,255,0.7);text-decoration:none;font-size:13px;">michalkornet.com ↗</a></div>
+</div>
+
+<!-- Page header -->
+<div class="page-header">
+  <div class="page-header-inner">
+    <div class="breadcrumb"><a href="#">Home</a> / Documentation Changelog</div>
+    <h1>Documentation Changelog</h1>
+    <p class="subtitle">Weekly diff of Microsoft Learn pages for SharePoint, OneDrive, Microsoft 365, Intune, and Copilot. Automatically tracked and compared against previous versions to surface what actually changed.</p>
+    <div class="header-stats">
+      <div class="header-stat"><span class="header-stat-num" id="statWeeks">—</span><span class="header-stat-label">Weeks tracked</span></div>
+      <div class="header-stat"><span class="header-stat-num" id="statPages">—</span><span class="header-stat-label">Page changes</span></div>
+      <div class="header-stat"><span class="header-stat-num" id="statCats">7</span><span class="header-stat-label">Categories</span></div>
+    </div>
+  </div>
+</div>
+
+<!-- Changelog view -->
+<div class="container" id="changelogView">
+  <div class="layout">
+    <aside class="sidebar">
+      <div class="sidebar-section">
+        <input type="text" class="search-box" id="searchBox" placeholder="Filter pages...">
+      </div>
+      <div class="sidebar-section">
+        <div class="sidebar-title">Weekly Reports</div>
+        <ul class="week-list" id="weekList"></ul>
+      </div>
+    </aside>
+    <main class="main-content" id="mainContent">
+      <div class="welcome-state">
+        <p>Select a week from the sidebar to see what changed in the tracked documentation.</p>
+      </div>
+    </main>
+  </div>
+</div>
+
+<!-- Sources view -->
+<div class="container" id="sourcesView" style="display:none;">
+  <div style="max-width:720px;">
+    <h2 style="font-size:20px;font-weight:700;margin-bottom:6px;">Tracked Documentation Sources</h2>
+    <p style="font-size:14px;color:var(--text-secondary);margin-bottom:24px;">These are the Microsoft Learn documentation areas monitored weekly. Each page is fetched, diffed against the previous version, and categorized automatically.</p>
+
+    <div class="sources-panel">
+      <div class="source-item">
+        <div class="source-icon sp">SP</div>
+        <div>
+          <div class="source-name">SharePoint Online Administration</div>
+          <div class="source-desc">Core admin docs: site management, settings, features, new experiences, home sites, hub sites, migration.</div>
+          <a class="source-url" href="https://learn.microsoft.com/en-us/sharepoint/" target="_blank">learn.microsoft.com/en-us/sharepoint/ ↗</a>
+        </div>
+      </div>
+      <div class="source-item">
+        <div class="source-icon sp" style="background:var(--teal-bg);">AI</div>
+        <div>
+          <div class="source-name">AI & Copilot in SharePoint</div>
+          <div class="source-desc">Copilot readiness, AI-powered features, SharePoint Agents, declarative agents, Copilot Studio integration.</div>
+          <a class="source-url" href="https://learn.microsoft.com/en-us/sharepoint/ai-in-sharepoint-get-started" target="_blank">SharePoint AI docs ↗</a>
+        </div>
+      </div>
+      <div class="source-item">
+        <div class="source-icon sp" style="background:var(--purple-bg);color:var(--purple);">SAM</div>
+        <div>
+          <div class="source-name">SharePoint Advanced Management</div>
+          <div class="source-desc">Data access governance, restricted access control, conditional access policies, site lifecycle management.</div>
+          <a class="source-url" href="https://learn.microsoft.com/en-us/sharepoint/advanced-management" target="_blank">SAM docs ↗</a>
+        </div>
+      </div>
+      <div class="source-item">
+        <div class="source-icon od">OD</div>
+        <div>
+          <div class="source-name">OneDrive for Business</div>
+          <div class="source-desc">Sync client, Files On-Demand, known folder move, storage policies, OneDrive admin settings.</div>
+          <a class="source-url" href="https://learn.microsoft.com/en-us/onedrive/" target="_blank">learn.microsoft.com/en-us/onedrive/ ↗</a>
+        </div>
+      </div>
+      <div class="source-item">
+        <div class="source-icon m365">365</div>
+        <div>
+          <div class="source-name">Microsoft 365 & Copilot</div>
+          <div class="source-desc">Copilot for Microsoft 365, admin center docs, licensing, deployment, and readiness guides.</div>
+          <a class="source-url" href="https://learn.microsoft.com/en-us/microsoft-365/" target="_blank">learn.microsoft.com/en-us/microsoft-365/ ↗</a>
+        </div>
+      </div>
+      <div class="source-item">
+        <div class="source-icon m365" style="background:var(--orange-bg);color:var(--orange);">IN</div>
+        <div>
+          <div class="source-name">Intune & Autopilot</div>
+          <div class="source-desc">Device management policies, Autopilot deployment, compliance policies related to M365 apps.</div>
+          <a class="source-url" href="https://learn.microsoft.com/en-us/intune/" target="_blank">learn.microsoft.com/en-us/intune/ ↗</a>
+        </div>
+      </div>
+      <div class="source-item">
+        <div class="source-icon m365" style="background:var(--brand-bg);color:var(--brand);">GR</div>
+        <div>
+          <div class="source-name">Microsoft Graph API</div>
+          <div class="source-desc">Graph APIs for SharePoint, OneDrive, Teams — permissions, sites, drives, and list endpoints.</div>
+          <a class="source-url" href="https://learn.microsoft.com/en-us/graph/" target="_blank">learn.microsoft.com/en-us/graph/ ↗</a>
+        </div>
+      </div>
+    </div>
+
+    <div style="margin-top:24px; padding:16px; background:var(--surface-secondary); border-radius:var(--radius-lg); font-size:12px; color:var(--text-secondary);">
+      <strong>How it works:</strong> A scheduled task runs weekly, fetching the latest HTML of each tracked page from Microsoft Learn. The current version is compared against the previous snapshot to identify new sections, removed content, updated terminology, and changed requirements. Results are categorized and published here as a weekly diff report.
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer style="max-width:1200px;margin:48px auto 24px;padding:0 24px;border-top:1px solid var(--border);padding-top:16px;display:flex;justify-content:space-between;align-items:center;font-size:12px;color:var(--text-tertiary);">
+  <span>Built by <a href="https://michalkornet.com/" target="_blank" rel="noopener" style="color:var(--brand);text-decoration:none;font-weight:600;">Michał Kornet</a> · SharePoint Developer & Microsoft MVP</span>
+  <a href="https://michalkornet.com/" target="_blank" rel="noopener" style="color:var(--brand);text-decoration:none;">michalkornet.com ↗</a>
+</footer>
+
+<script>
+let weeksData = [];
+let currentWeek = null;
+let currentFilter = 'all';
+let weekCache = {};
+
+function showView(view) {
+  document.getElementById('changelogView').style.display = view === 'changelog' ? '' : 'none';
+  document.getElementById('sourcesView').style.display = view === 'sources' ? '' : 'none';
+  document.querySelectorAll('.topbar-nav button').forEach(b => b.classList.remove('active'));
+  event.target.classList.add('active');
+}
+
+async function init() {
+  try {
+    const res = await fetch('data/weeks.json');
+    weeksData = await res.json();
+  } catch(e) {
+    document.getElementById('mainContent').innerHTML = '<div class="empty-state">Could not load data. Make sure data/weeks.json exists.</div>';
+    return;
+  }
+
+  document.getElementById('statWeeks').textContent = weeksData.length;
+  document.getElementById('statPages').textContent = weeksData.reduce((s, w) => s + w.count, 0);
+
+  renderWeekList();
+  document.getElementById('searchBox').addEventListener('input', onSearch);
+
+  const firstWithChanges = weeksData.find(w => w.count > 0);
+  if (firstWithChanges) selectWeek(firstWithChanges.date);
+}
+
+function renderWeekList() {
+  const list = document.getElementById('weekList');
+  list.innerHTML = '';
+  for (const w of weeksData) {
+    const li = document.createElement('li');
+    li.className = 'week-item' + (w.count === 0 ? ' zero' : '') + (w.date === currentWeek ? ' active' : '');
+    const d = new Date(w.date + 'T00:00:00');
+    const label = d.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
+    li.innerHTML = '<span>' + label + '</span><span class="count">' + w.count + '</span>';
+    li.onclick = () => selectWeek(w.date);
+    list.appendChild(li);
+  }
+}
+
+async function selectWeek(date) {
+  currentWeek = date;
+  currentFilter = 'all';
+  renderWeekList();
+
+  if (!weekCache[date]) {
+    try {
+      const res = await fetch('data/' + date + '.json');
+      weekCache[date] = await res.json();
+    } catch(e) {
+      document.getElementById('mainContent').innerHTML = '<div class="empty-state">Could not load data for this week.</div>';
+      return;
+    }
+  }
+  renderWeekContent();
+}
+
+function renderWeekContent() {
+  const data = weekCache[currentWeek];
+  if (!data) return;
+
+  const main = document.getElementById('mainContent');
+  const d = new Date(data.date + 'T00:00:00');
+  const label = d.toLocaleDateString('en-US', { weekday: 'long', month: 'long', day: 'numeric', year: 'numeric' });
+  const search = document.getElementById('searchBox').value.toLowerCase();
+
+  let pages = data.pages;
+  if (search) {
+    pages = pages.filter(function(p) {
+      return p.title.toLowerCase().includes(search) ||
+        p.description.toLowerCase().includes(search) ||
+        p.about.toLowerCase().includes(search) ||
+        p.changes.some(function(c) { return c.toLowerCase().includes(search); }) ||
+        p.category.toLowerCase().includes(search);
+    });
+  }
+
+  const cats = [...new Set(data.pages.map(function(p) { return p.category; }))].sort();
+
+  let filtersHtml = '';
+  if (cats.length > 0) {
+    const allBtn = '<button class="filter-btn ' + (currentFilter === 'all' ? 'active' : '') + '" onclick="setFilter(\'all\')">All (' + data.pages.length + ')</button>';
+    const catBtns = cats.map(function(c) {
+      const cnt = data.pages.filter(function(p) { return p.category === c; }).length;
+      const escaped = c.replace(/'/g, "\\'");
+      return '<button class="filter-btn ' + (currentFilter === c ? 'active' : '') + '" onclick="setFilter(\'' + escaped + '\')">' + c + ' (' + cnt + ')</button>';
+    }).join('');
+    filtersHtml = '<div class="filters">' + allBtn + catBtns + '</div>';
+  }
+
+  if (currentFilter !== 'all') {
+    pages = pages.filter(function(p) { return p.category === currentFilter; });
+  }
+
+  if (data.pages.length === 0) {
+    main.innerHTML = '<div class="week-header"><div class="week-title">' + label + '</div></div>' +
+      '<div class="empty-state">No documentation changes detected this week.</div>';
+    return;
+  }
+
+  const cardsHtml = pages.map(function(p) {
+    const statusClass = p.status === 'new' ? 'badge-new' : p.status === 'deleted' ? 'badge-deleted' : p.status === 'rebranded' ? 'badge-rebranded' : 'badge-updated';
+    let changesHtml;
+    if (p.changes.length > 1) {
+      changesHtml = '<ul>' + p.changes.map(function(c) { return '<li>' + esc(c) + '</li>'; }).join('') + '</ul>';
+    } else if (p.changes.length === 1) {
+      changesHtml = '<p>' + esc(p.changes[0]) + '</p>';
+    } else {
+      changesHtml = '<p>Minor updates.</p>';
+    }
+
+    return '<div class="card">' +
+      '<div class="card-top">' +
+        '<h3><a href="' + esc(p.url) + '" target="_blank" rel="noopener">' + esc(p.title) + '</a></h3>' +
+        '<div class="badges">' +
+          '<span class="badge ' + statusClass + '">' + esc(p.status) + '</span>' +
+          '<span class="badge badge-cat">' + esc(p.category) + '</span>' +
+        '</div>' +
+      '</div>' +
+      '<div class="card-meta">' + esc(p.lastUpdate) +
+        (p.url ? ' · <a href="' + esc(p.url) + '" target="_blank">View on Microsoft Learn ↗</a>' : '') +
+      '</div>' +
+      (p.description ? '<div class="card-desc">' + esc(p.description) + '</div>' : '') +
+      (p.about ? '<div class="section-box about-box"><h4>What this page is about</h4><p>' + esc(p.about) + '</p></div>' : '') +
+      '<div class="section-box changes-box"><h4>What changed</h4>' + changesHtml + '</div>' +
+    '</div>';
+  }).join('');
+
+  main.innerHTML =
+    '<div class="week-header">' +
+      '<div class="week-title">' + label + '</div>' +
+      '<span class="week-badge">' + data.totalChanged + ' change' + (data.totalChanged !== 1 ? 's' : '') + '</span>' +
+    '</div>' +
+    filtersHtml +
+    (pages.length === 0 ? '<div class="empty-state">No pages match this filter.</div>' : cardsHtml);
+}
+
+function setFilter(cat) {
+  currentFilter = cat;
+  renderWeekContent();
+}
+
+function onSearch() {
+  if (currentWeek) renderWeekContent();
+}
+
+function esc(s) {
+  var d = document.createElement('div');
+  d.textContent = s || '';
+  return d.innerHTML;
+}
+
+init();
+</script>
+</body>
+</html>

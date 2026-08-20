@@ -1,0 +1,18 @@
+{
+  "date": "2026-08-19",
+  "totalChanged": 1,
+  "pages": [
+    {
+      "title": "enable-new-sharepoint-experience",
+      "url": "https://learn.microsoft.com/en-us/sharepoint/enable-new-sharepoint-experience",
+      "status": "updated",
+      "lastUpdate": "",
+      "description": "",
+      "about": "",
+      "changes": [
+        "The page title section changed from 'Enable the new SharePoint experience' to 'New SharePoint Experience', reflecting that the feature has moved from preview to general availability. References to 'Public Preview' status and the May 4 conclusion date were removed. The term 'start page' was updated to 'home page' throughout. The user toggle to switch back to the previous experience (previously available during preview) appears to have been removed or its description updated, indicating the rollout is now permanent."
+      ],
+      "category": "SharePoint Administration"
+    }
+  ]
+}
