@@ -1,0 +1,48 @@
+{
+  "date": "2026-08-24",
+  "totalChanged": 3,
+  "pages": [
+    {
+      "title": "Trim versions",
+      "url": "https://learn.microsoft.com/en-us/sharepoint/trim-versions",
+      "status": "updated",
+      "lastUpdate": "August 19, 2026",
+      "description": "Learn how to reduce version storage consumption by analyzing, managing, and trimming file versions at the library, site, or tenant level.",
+      "about": "Guidance for administrators on trimming file version history in SharePoint and OneDrive to reclaim storage. Covers prerequisites, What-If analysis, trim modes (automatic, manual count limit, manual expiration), and PowerShell cmdlets for tenant-level operations.",
+      "changes": [
+        "Major restructure: Article reorganized with new step-by-step workflow — Prerequisites → What-If Analysis → Trim existing versions.",
+        "New sections added: 'Prerequisites and limitations', 'Automatic trim mode (recommended)', 'Manual count limit trim mode', 'Manual expiration trim mode', and 'Tenant-level PowerShell cmdlet reference'.",
+        "Content significantly expanded (+8,281 chars). The previous 'Version trim modes' section was broken out into dedicated sub-sections with clearer guidance.",
+        "PowerShell guidance restructured with more detailed step-by-step workflows for each trim mode.",
+        "Removed: 'Share via' section and consolidated 'Learn More' into 'Learn more'."
+      ],
+      "category": "SharePoint Administration"
+    },
+    {
+      "title": "SAM features in Microsoft Copilot",
+      "url": "https://learn.microsoft.com/en-us/sharepoint/sharepoint-advanced-management-features-copilot-license",
+      "status": "updated",
+      "lastUpdate": "August 18, 2026",
+      "description": "Get the details about SharePoint Advanced Management features that are included with Microsoft Copilot licenses.",
+      "about": "Overview of which SharePoint Advanced Management (SAM) features are bundled with Microsoft Copilot licenses, including data access governance, site lifecycle management, and content governance capabilities available to Copilot-licensed tenants.",
+      "changes": [
+        "Branding rename: 'Microsoft 365 Copilot' changed to 'Microsoft Copilot' throughout the article, including the main heading.",
+        "Minor content additions in the 'SAM features in Copilot environments' and 'Related articles' sections (+1,982 chars total)."
+      ],
+      "category": "SharePoint Advanced Management"
+    },
+    {
+      "title": "Get ready for Copilot",
+      "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/get-ready-copilot-sharepoint-advanced-management",
+      "status": "updated",
+      "lastUpdate": "August 18, 2026",
+      "description": "Prepare for Microsoft Copilot with SharePoint Advanced Management to reduce oversharing, govern access, and manage lifecycle—start improving readiness now.",
+      "about": "Step-by-step readiness guide for deploying Microsoft Copilot with SharePoint Advanced Management. Covers reducing oversharing, governing access to sensitive content, managing site lifecycle, and using the SharePoint Admin Agent to assess readiness.",
+      "changes": [
+        "Branding rename: Title changed from 'Get ready for Microsoft 365 Copilot and agents with SharePoint Advanced Management' to 'Get ready for Microsoft Copilot and agents with SharePoint Advanced Management'.",
+        "Minor wording adjustments in the 'Open the SharePoint Admin Agent' section. Part of the broader 'Microsoft 365 Copilot' → 'Microsoft Copilot' rename across documentation."
+      ],
+      "category": "Copilot Readiness"
+    }
+  ]
+}
