@@ -1,0 +1,37 @@
+{
+  "date": "2026-08-31",
+  "totalChanged": 2,
+  "pages": [
+    {
+      "title": "Deprecating classic",
+      "url": "https://learn.microsoft.com/en-us/sharepoint/classic-user-created-page-deprecation",
+      "status": "new",
+      "lastUpdate": "August 28, 2026",
+      "description": "Guidance for customers regarding retirement of classic SharePoint pages.",
+      "about": "This page outlines the upcoming deprecation of classic SharePoint publishing sites, classic user-created pages, and custom scripting in SharePoint Online. It provides a two-phase rollout timeline starting March 2027 and October 2028, with details on what gets disabled at each phase.",
+      "changes": [
+        "New documentation page added covering the full deprecation timeline for classic SharePoint pages and publishing sites",
+        "Phase 1 (March 1, 2027): creation of new classic publishing sites disabled, AllowClassicPublishingSiteCreation enforced as False",
+        "Phase 2 (October 1, 2028): classic user-created pages become read-only across all existing tenants, DenyAddAndCustomizePages enforced as True",
+        "Existing classic page content is preserved and remains viewable but becomes read-only when each phase takes effect"
+      ],
+      "category": "SharePoint Administration"
+    },
+    {
+      "title": "Standard storage for unlicensed OneDrive accounts",
+      "url": "https://learn.microsoft.com/en-us/sharepoint/standard-storage-unlicensed-onedrive-accounts",
+      "status": "new",
+      "lastUpdate": "August 26, 2026",
+      "description": "Learn how to manage Standard storage for unlicensed OneDrive accounts, including the tenant-wide active-storage period and per-account reactivation dates.",
+      "about": "This page explains the Standard storage feature for unlicensed OneDrive accounts, which gives SharePoint admins control over how long unlicensed OneDrive accounts stay active before archiving. It covers pay-as-you-go billing setup, enabling Standard storage, and reactivating archived accounts beyond the default 30-day period.",
+      "changes": [
+        "New documentation page added for Standard storage feature for unlicensed OneDrive accounts",
+        "Standard storage will be generally available starting October 2026",
+        "Two-step billing setup: connect pay-as-you-go billing via Azure subscription, then enable Standard storage opt-in",
+        "Archived content uses Archive meter; active content retained through Standard storage uses Standard meter",
+        "Administrators choose which accounts to reactivate — enabling Standard storage does not auto-reactivate all accounts"
+      ],
+      "category": "OneDrive Sync"
+    }
+  ]
+}
