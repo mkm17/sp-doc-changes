@@ -1,0 +1,21 @@
+{
+  "date": "2026-09-07",
+  "totalChanged": 1,
+  "pages": [
+    {
+      "title": "Restore Deleted Items From Site Collection Recycle Bin",
+      "url": "https://learn.microsoft.com/en-us/sharepoint/restore-deleted-items-from-site-collection-recycle-bin",
+      "status": "new",
+      "lastUpdate": "August 31, 2026",
+      "description": "Learn how to manage the SharePoint Site Collection recycle bin for SharePoint Online.",
+      "about": "This page explains how the two-stage SharePoint Recycle Bin works \u2014 items deleted from a site go to the first-stage Recycle Bin, and when deleted from there, move to the second-stage (site collection) Recycle Bin. It covers how site collection administrators can restore items from both stages, including restoring entire site collections via the SharePoint admin center.",
+      "changes": [
+        "New documentation page added covering the SharePoint site collection Recycle Bin restore process",
+        "Explains first-stage vs second-stage Recycle Bin behavior, including storage quota implications",
+        "Provides step-by-step restore instructions for modern team sites, communication sites, and classic sites",
+        "Includes guidance on restoring entire site collections via the SharePoint admin center for global/SharePoint admins"
+      ],
+      "category": "SharePoint Administration"
+    }
+  ]
+}
