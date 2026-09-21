@@ -1,0 +1,259 @@
+{
+  "date": "2026-09-21",
+  "totalChanged": 18,
+  "pages": [
+    {
+      "title": "SharePoint app in Teams Overview",
+      "url": "https://learn.microsoft.com/en-us/sharepoint/homesites/sharepoint-app-in-teams-overview",
+      "status": "new",
+      "lastUpdate": "September 20, 2026",
+      "description": "Learn how to use the SharePoint app in Microsoft Teams to engage and unite your organization.",
+      "about": "This page provides a comprehensive overview of the SharePoint app in Microsoft Teams, which serves as an employee experience gateway. It covers the primary components including the dashboard, news feed, and resources, along with mobile and desktop experiences, branding, localization, and extensibility options.",
+      "changes": [
+        "New documentation page added: SharePoint app in Teams Overview",
+        "Introduces the SharePoint app in Teams as an employee experience gateway with dashboard, news, and resources components",
+        "Documents mobile and desktop experiences, branding, localization, and extensibility options",
+        "Covers support for multiple home sites across multiple experiences"
+      ],
+      "category": "SharePoint Administration"
+    },
+    {
+      "title": "Plan, Build, and Launch the SharePoint app in Teams",
+      "url": "https://learn.microsoft.com/en-us/sharepoint/homesites/sharepoint-app-in-teams-setup-overview",
+      "status": "new",
+      "lastUpdate": "September 20, 2026",
+      "description": "Overview for how to plan, build, and launch the SharePoint app in Teams for your organization",
+      "about": "This page offers a step-by-step overview for planning, building, and launching the SharePoint app in Teams for your organization. It outlines the phases of deployment, the roles involved at each stage, and links to detailed guidance for each step of the process.",
+      "changes": [
+        "New documentation page added: Plan, Build, and Launch the SharePoint app in Teams",
+        "Provides step-by-step deployment guidance with phase-by-phase overview",
+        "Documents roles and activities required at each deployment phase"
+      ],
+      "category": "SharePoint Administration"
+    },
+    {
+      "title": "Start planning",
+      "url": "https://learn.microsoft.com/en-us/sharepoint/homesites/plan-sharepoint-app-in-teams",
+      "status": "new",
+      "lastUpdate": "September 20, 2026",
+      "description": "Build a team of stakeholders to align the primary use cases for your user experience strategy, then plan for each component of the SharePoint app in Teams experience",
+      "about": "This page guides administrators through the planning phase for the SharePoint app in Teams. It covers establishing a home site, setting up global navigation, planning the dashboard with audience targeting in mind, configuring news delivery, and planning the resources section.",
+      "changes": [
+        "New documentation page added: Start planning",
+        "Covers 5-step planning process: home site setup, global navigation, content modernization, dashboard planning, and news/resources configuration",
+        "Includes guidance on designing with audience targeting in mind"
+      ],
+      "category": "SharePoint Administration"
+    },
+    {
+      "title": "Build and test your design",
+      "url": "https://learn.microsoft.com/en-us/sharepoint/homesites/build-sharepoint-app-in-teams",
+      "status": "new",
+      "lastUpdate": "September 20, 2026",
+      "description": "Review recommendations to help you build and test your SharePoint app in Teams design for your organization",
+      "about": "This page walks through the build and testing phase of your SharePoint app in Teams deployment. It covers configuring the experience, customizing the dashboard with cards, ensuring high-traffic content renders well, and testing across devices and audiences before launch.",
+      "changes": [
+        "New documentation page added: Build and test your design",
+        "Provides 4-step build process: configure experience, customize dashboard, optimize high-traffic content, test across devices"
+      ],
+      "category": "SharePoint Administration"
+    },
+    {
+      "title": "Launch and maintain",
+      "url": "https://learn.microsoft.com/en-us/sharepoint/homesites/launch-sharepoint-app-in-teams",
+      "status": "new",
+      "lastUpdate": "September 20, 2026",
+      "description": "Prepare your organization for the launch of Viva Connections by using news posts, announcements, and Champions.",
+      "about": "This page covers launch and ongoing maintenance strategies for the SharePoint app in Teams. It includes tactics for spreading awareness through news posts and announcements, leveraging champions for continued support, and best practices for a successful rollout.",
+      "changes": [
+        "New documentation page added: Launch and maintain",
+        "Documents launch tactics including news posts, announcements, and champion programs",
+        "Includes best practices for ongoing maintenance and user support"
+      ],
+      "category": "SharePoint Administration"
+    },
+    {
+      "title": "Create and edit the dashboard",
+      "url": "https://learn.microsoft.com/en-us/sharepoint/homesites/create-dashboard",
+      "status": "new",
+      "lastUpdate": "September 20, 2026",
+      "description": "Learn how to edit the SharePoint app in Teams dashboard from Teams and SharePoint, apply audience targeting, and how SSO works with some dashboard cards.",
+      "about": "This page explains how to create and edit the SharePoint app in Teams dashboard from both Teams and SharePoint. It covers adding and arranging cards, applying audience targeting to show relevant content to specific user groups, and how URLs and single sign-on (SSO) work with dashboard cards.",
+      "changes": [
+        "New documentation page added: Create and edit the dashboard",
+        "Documents dashboard editing from both Teams and SharePoint interfaces",
+        "Covers audience targeting for cards and SSO behavior with dashboard card URLs"
+      ],
+      "category": "SharePoint Administration"
+    },
+    {
+      "title": "Available dashboard cards",
+      "url": "https://learn.microsoft.com/en-us/sharepoint/homesites/available-dashboard-cards",
+      "status": "new",
+      "lastUpdate": "September 20, 2026",
+      "description": "Add dynamic cards to the SharePoint app in Teams dashboard to help users perform tasks like accessing training materials, shift schedules, assigned tasks, and more.",
+      "about": "This page catalogs all available dashboard cards for the SharePoint app in Teams, including Approvals, Assigned Tasks, Assignments, Courses, Events, Folder, My Sites, News, and more. Each card type is described with setup instructions and configuration options.",
+      "changes": [
+        "New documentation page added: Available dashboard cards",
+        "Catalogs all available card types: Approvals, Assigned Tasks, Assignments, Courses, Events, Folder, My Sites, News, and more",
+        "Provides setup instructions and configuration options for each card type"
+      ],
+      "category": "SharePoint Administration"
+    },
+    {
+      "title": "Build cards with the card designer",
+      "url": "https://learn.microsoft.com/en-us/sharepoint/homesites/use-card-designer",
+      "status": "new",
+      "lastUpdate": "September 20, 2026",
+      "description": "Use the Card Designer to quickly build custom interactive cards for the SharePoint app in Teams that can link to sites, open media and apps, and more without the need for custom code.",
+      "about": "This page explains how to use the Card Designer to build custom interactive dashboard cards without code. It covers using card templates, adding quick views for richer interactivity, and linking cards to sites, media, and apps.",
+      "changes": [
+        "New documentation page added: Build cards with the card designer",
+        "Introduces no-code Card Designer for building custom interactive dashboard cards",
+        "Covers card templates and quick views for richer card interactivity"
+      ],
+      "category": "SharePoint Administration"
+    },
+    {
+      "title": "Create a dashboard in more than one language",
+      "url": "https://learn.microsoft.com/en-us/sharepoint/homesites/create-multilingual-dashboard",
+      "status": "new",
+      "lastUpdate": "September 20, 2026",
+      "description": "Learn how to create a SharePoint app in Teams dashboard in more than one language",
+      "about": "This page provides step-by-step instructions for creating multilingual dashboards in the SharePoint app in Teams. It covers enabling multilingual support, selecting languages, assigning translators, creating translated dashboards, and managing email notifications for translation tasks.",
+      "changes": [
+        "New documentation page added: Create a dashboard in more than one language",
+        "Provides 5-step process for enabling multilingual dashboards",
+        "Covers language selection, translator assignment, and translation management"
+      ],
+      "category": "SharePoint Administration"
+    },
+    {
+      "title": "Working with News",
+      "url": "https://learn.microsoft.com/en-us/sharepoint/homesites/sharepoint-app-in-teams-news-notifications",
+      "status": "new",
+      "lastUpdate": "September 20, 2026",
+      "description": "Learn how News notifications are presented in the SharePoint app in Teams across the desktop, mobile, and web environments",
+      "about": "This page explains how news notifications work in the SharePoint app in Teams across desktop, mobile, and web. It covers when notifications are sent via Teams, who receives them (end-users and authors), and how administrators and users can control notification settings.",
+      "changes": [
+        "New documentation page added: Working with News",
+        "Documents notification behavior across desktop, mobile, and web platforms",
+        "Covers notification controls for both administrators and end-users"
+      ],
+      "category": "SharePoint Administration"
+    },
+    {
+      "title": "Using the Announcements web part",
+      "url": "https://learn.microsoft.com/en-us/sharepoint/homesites/announcements-web-part",
+      "status": "new",
+      "lastUpdate": "September 20, 2026",
+      "description": "Use announcements in Viva Connections",
+      "about": "This page covers the Announcements web part in Viva Connections, including when to use announcements versus news posts, best practices for writing effective announcements, and how to create, edit, delete, and manage announcements across mobile, tablet, and desktop experiences.",
+      "changes": [
+        "New documentation page added: Using the Announcements web part",
+        "Documents the Announcements web part for time-sensitive organizational communications",
+        "Covers creation, editing, scheduling, and deletion of announcements across device types"
+      ],
+      "category": "SharePoint Administration"
+    },
+    {
+      "title": "Configure the SharePoint App for Teams",
+      "url": "https://learn.microsoft.com/en-us/sharepoint/homesites/sharepoint-app-in-teams-app-config",
+      "status": "new",
+      "lastUpdate": "September 20, 2026",
+      "description": "Instructions on how to set the landing experiences for the SharePoint Teams apps on mobile and desktop",
+      "about": "This page provides instructions for configuring the SharePoint app in Teams landing experiences. It covers the configuration flow for both mobile and desktop, including custom layout (recommended) and fixed layout options for each platform.",
+      "changes": [
+        "New documentation page added: Configure the SharePoint App for Teams",
+        "Documents the configuration flow for mobile and desktop landing experiences",
+        "Covers both custom layout (recommended) and fixed layout options"
+      ],
+      "category": "SharePoint Administration"
+    },
+    {
+      "title": "Use audience targeting",
+      "url": "https://learn.microsoft.com/en-us/sharepoint/homesites/use-audience-targeting-sharepoint-app-in-teams",
+      "status": "new",
+      "lastUpdate": "September 20, 2026",
+      "description": "Use audience targeting in the SharePoint app in Teams to highlight relevant content for the right audiences",
+      "about": "This page explains how to use audience targeting to personalize the SharePoint app in Teams experience. It covers applying targeting to dashboard cards, news posts (from both SharePoint and Teams), and resource links, plus how to preview the experience for different audiences.",
+      "changes": [
+        "New documentation page added: Use audience targeting",
+        "Covers applying audience targeting to dashboard cards, news posts, and resource links",
+        "Includes dashboard preview functionality for testing different audience views"
+      ],
+      "category": "SharePoint Administration"
+    },
+    {
+      "title": "Specific languages",
+      "url": "https://learn.microsoft.com/en-us/sharepoint/homesites/sharepoint-app-in-teams-language",
+      "status": "new",
+      "lastUpdate": "September 20, 2026",
+      "description": "Set up the SharePoint app in Teams experience in a specific language",
+      "about": "This page covers setting up the SharePoint app in Teams experience in specific languages. It lists available languages and explains localization for the dashboard, news reader, organizational news, resources section, and the Teams mobile app.",
+      "changes": [
+        "New documentation page added: Specific languages",
+        "Lists all available languages for the SharePoint app in Teams experience",
+        "Covers localization for dashboard, news reader, organizational news, resources, and Teams mobile app"
+      ],
+      "category": "SharePoint Administration"
+    },
+    {
+      "title": "Analytics",
+      "url": "https://learn.microsoft.com/en-us/sharepoint/homesites/sharepoint-app-in-teams-analytics",
+      "status": "new",
+      "lastUpdate": "September 20, 2026",
+      "description": "View usage data for SharePoint app for Teams to learn more about usage trends.",
+      "about": "This page describes the usage analytics report for the SharePoint app in Teams. It covers how to access the report from a home site or Teams, what metrics are available (overall traffic, usage details, engagement details), how to download reports, and how to disable analytics features.",
+      "changes": [
+        "Page content completely replaced \u2014 previously contained Microsoft Viva Privacy, Security, and Compliance documentation",
+        "New content covers SharePoint app for Teams usage analytics, including traffic and engagement reports",
+        "Added instructions for accessing analytics from both SharePoint home sites and Microsoft Teams",
+        "Includes guidance on downloading reports and disabling analytics features"
+      ],
+      "category": "SharePoint Administration"
+    },
+    {
+      "title": "Plan, build, and launch a home site",
+      "url": "https://learn.microsoft.com/en-us/sharepoint/homesites/sharepoint-app-in-teams-plan",
+      "status": "new",
+      "lastUpdate": "September 20, 2026",
+      "description": "Learn about how to plan, build, and launch the main SharePoint landing site for your organization.",
+      "about": "This page covers planning, building, and launching a SharePoint home site \u2014 the main landing site for your organization's intranet. It explains home site benefits like cross-intranet search, organizational news distribution, and global navigation customization, along with best practices and step-by-step guidance.",
+      "changes": [
+        "New documentation page added: Plan, build, and launch a home site",
+        "Documents home site benefits: cross-intranet search, organizational news, and global navigation",
+        "Provides planning, building, and launch guidance with best practices and considerations"
+      ],
+      "category": "SharePoint Administration"
+    },
+    {
+      "title": "Customize global navigation",
+      "url": "https://learn.microsoft.com/en-us/sharepoint/homesites/sharepoint-app-bar",
+      "status": "new",
+      "lastUpdate": "September 20, 2026",
+      "description": "Use the SharePoint app bar to enhance intranet way finding, and display and create personalized content",
+      "about": "This page explains the SharePoint app bar and how to customize global navigation. It covers different configuration options depending on your home site setup, including displaying home site navigation, hub navigation, or hiding site navigation in favor of global navigation.",
+      "changes": [
+        "New documentation page added: Customize global navigation",
+        "Documents the SharePoint app bar and its global navigation customization options",
+        "Covers multiple configuration approaches depending on home site setup"
+      ],
+      "category": "SharePoint Administration"
+    },
+    {
+      "title": "Cusotmize pages with SharePoint web parts",
+      "url": "https://learn.microsoft.com/en-us/sharepoint/homesites/use-web-parts-in-sharepoint",
+      "status": "new",
+      "lastUpdate": "September 20, 2026",
+      "description": "Use web parts to keep users informed and engaged with content personalized to the viewer, distributing a steady stream of information within Viva Connections.",
+      "about": "This page describes how to use various web parts to display content on SharePoint sites within the Viva Connections experience. It covers the News web part, Viva Engage web parts, video hosting with File and Media and Highlighted Content web parts, and Video Pages.",
+      "changes": [
+        "New documentation page added: Cusotmize pages with SharePoint web parts",
+        "Documents News, Viva Engage, video hosting, and Video Pages web parts",
+        "Covers content personalization and engagement features within the Viva Connections experience"
+      ],
+      "category": "SharePoint Administration"
+    }
+  ]
+}
