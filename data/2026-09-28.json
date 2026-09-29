@@ -1,0 +1,28 @@
+{
+  "date": "2026-09-28",
+  "totalChanged": 1,
+  "pages": [
+    {
+      "title": "Get started",
+      "url": "https://learn.microsoft.com/en-us/sharepoint/copilot-in-sharepoint-get-started",
+      "status": "updated",
+      "lastUpdate": "September 25, 2026",
+      "description": "Learn how to set up Copilot in SharePoint.",
+      "about": "This page is the primary admin and end-user guide for enabling and configuring Copilot in SharePoint. It covers prerequisites, licensing, availability controls (PowerShell and site-level), language support, usage limits, and model information.",
+      "changes": [
+        "General Availability announced — \"(preview)\" removed from title; GA rollout begins September 30, 2026",
+        "New \"Licensing and Copilot Credits\" section introducing a hybrid model: everyday productivity included with M365 Copilot license, advanced work requires Copilot Credits via usage-based billing",
+        "New \"Set up usage-based billing\" section with step-by-step admin instructions for creating spending policies in the Microsoft 365 admin center",
+        "New \"Decide who needs Copilot Credits\" section — guidance prioritizing credits for content managers and site managers",
+        "New \"What users see\" section detailing credit-confirmation prompts, /cost command, 20%-remaining warnings, and graceful stops",
+        "New capability comparison table distinguishing included capabilities from those requiring Copilot Credits",
+        "Preview PowerShell controls (KnowledgeAgentScope, KnowledgeAgentSelectedSitesList, KnowledgeAgentSelectedSitesListOperation) being retired; existing settings honored until November 1, 2026",
+        "New prerequisite: site-level enablement for real-time metadata autofill requires usage-based billing at the site level",
+        "Weekly usage limits from preview removed at GA; only rare daily service-protection limits may apply",
+        "Section reorganization: \"Other controls\" removed; Site AI settings and Restricted Content Discovery moved under \"Manage Availability\" section",
+        "Government cloud non-support note (GCC, GCC High, DoD) relocated from top alert to end-of-page note"
+      ],
+      "category": "Copilot Readiness"
+    }
+  ]
+}
