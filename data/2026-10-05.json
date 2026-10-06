@@ -1,0 +1,34 @@
+{
+  "date": "2026-10-05",
+  "totalChanged": 2,
+  "pages": [
+    {
+      "title": "Learn about recent updates",
+      "url": "https://learn.microsoft.com/en-us/sharepoint/homesites/home-sites-improvements",
+      "status": "new",
+      "lastUpdate": "September 28, 2026",
+      "description": "This article lists all the updates shipped for SharePoint home sites.",
+      "about": "This page tracks recent updates and improvements to SharePoint home sites, covering changes to the default app experience (now aligned with SharePoint branding, removing Viva-specific content), the Announcements web part, and home site creation from the admin center.",
+      "changes": [
+        "URL restructured — page relocated from /sharepoint/home-sites-improvements to /sharepoint/homesites/home-sites-improvements",
+        "Viva license requirement for Announcements feature explicitly removed",
+        "New UX instructions added for returning to default experience via Teams navigation",
+        "Default app experience description now specifies removal of 'Go to Connections' UX"
+      ],
+      "category": "SharePoint Administration"
+    },
+    {
+      "title": "Home sites",
+      "url": "https://learn.microsoft.com/en-us/sharepoint/home-sites-improvements",
+      "status": "deleted",
+      "lastUpdate": "June 25, 2026",
+      "description": "This article lists all the updates shipped for SharePoint home sites.",
+      "about": "This was the previous location for the SharePoint home sites updates page. It has been replaced by the new URL as part of a documentation path restructure moving home site content under the /homesites/ sub-path.",
+      "changes": [
+        "Page deprecated — content migrated to new /homesites/home-sites-improvements path",
+        "Bookmarks and links pointing to this old URL should be updated"
+      ],
+      "category": "SharePoint Administration"
+    }
+  ]
+}
