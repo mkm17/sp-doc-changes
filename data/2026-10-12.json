@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-12",
+  "totalChanged": 1,
+  "pages": [
+    {
+      "title": "Specific languages",
+      "url": "https://learn.microsoft.com/en-us/sharepoint/homesites/sharepoint-app-in-teams-language",
+      "status": "updated",
+      "lastUpdate": "October 9, 2026",
+      "description": "Set up the SharePoint app in Teams experience in a specific language",
+      "about": "This page explains how to configure the SharePoint app in Microsoft Teams for a specific language. It covers setting up the experience for organizations with or without a SharePoint home site, configuring the Teams dashboard, news feed, and resources web part across 27 supported languages.",
+      "changes": [
+        "Major rebranding: all 'Viva Connections' references replaced with 'SharePoint app in Teams' throughout the page",
+        "Section renamed: 'Viva Connections dashboard' → 'The SharePoint app in Teams dashboard'",
+        "Section renamed: 'Viva Connections resources' → 'Resources web part'",
+        "Section renamed: 'Viva Connections news reader' → 'News for the SharePoint app in Teams'",
+        "Section removed: 'For organizations using just Viva Connections' (consolidated into main flow)",
+        "Updated instructions and references to align with new SharePoint app in Teams branding"
+      ],
+      "category": "SharePoint Administration"
+    }
+  ]
+}
