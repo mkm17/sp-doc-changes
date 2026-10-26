@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-19",
+  "totalChanged": 2,
+  "pages": [
+    {
+      "title": "Upgrade agents in SharePoint and OneDrive",
+      "url": "https://learn.microsoft.com/en-us/sharepoint/upgrade-sharepoint-agents",
+      "status": "new",
+      "lastUpdate": "October 16, 2026",
+      "description": "Learn how to upgrade agents in SharePoint and OneDrive to Microsoft Copilot Agent Builder and Copilot in SharePoint.",
+      "about": "Learn how to upgrade agents in SharePoint and OneDrive to Microsoft Copilot Agent Builder and Copilot in SharePoint. Key topics include: In this article, What is changing?, Are agents in SharePoint and OneDrive being retired?.",
+      "changes": [
+        "New page added to documentation"
+      ],
+      "category": "SharePoint Agents"
+    },
+    {
+      "title": "Restrict SharePoint site access for applications and agents with Application Restrictions",
+      "url": "https://learn.microsoft.com/en-us/sharepoint/restrict-application-agent-access",
+      "status": "new",
+      "lastUpdate": "October 13, 2026",
+      "description": "Learn how to restrict which applications and agents can access SharePoint sites and their content by using tenant and site policies in SharePoint Online Management Shell.",
+      "about": "Learn how to restrict which applications and agents can access SharePoint sites and their content by using tenant and site policies in SharePoint Online Management Shell. Key topics include: In this article, How the policy is evaluated, Microsoft applications are excluded.",
+      "changes": [
+        "New page added to documentation"
+      ],
+      "category": "SharePoint Advanced Management"
+    }
+  ]
+}
