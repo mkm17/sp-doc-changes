@@ -1,0 +1,240 @@
+{
+  "date": "2026-11-02",
+  "totalChanged": 18,
+  "pages": [
+    {
+      "title": "Agent management overview",
+      "url": "https://learn.microsoft.com/en-us/microsoft-agent-365/admin/agent-365-overview",
+      "status": "new",
+      "lastUpdate": "October 23, 2026",
+      "description": "Track agent usage across your organization and take steps to improve impact from Microsoft 365 admin center.",
+      "about": "Track agent usage across your organization and take steps to improve impact from Microsoft 365 admin center. Key topics include: Agent management in Microsoft 365 admin center, Prerequisites for agent management, Licensing for agent management, View the Agent overview.",
+      "changes": [
+        "New page added to documentation",
+        "Covers sections: Agent management in Microsoft 365 admin center, Prerequisites for agent management, Licensing for agent management, View the Agent overview, Agent overview summary"
+      ],
+      "category": "SharePoint Agents"
+    },
+    {
+      "title": "Agent management roles and permissions",
+      "url": "https://learn.microsoft.com/en-us/microsoft-agent-365/admin/agent-roles-perms",
+      "status": "new",
+      "lastUpdate": "October 23, 2026",
+      "description": "Understand agent management roles and permissions within Microsoft 365 admin center.",
+      "about": "Understand agent management roles and permissions within Microsoft 365 admin center. Key topics include: Agent management roles and permissions in Microsoft 365 admin center.",
+      "changes": [
+        "New page added to documentation",
+        "Covers sections: Agent management roles and permissions in Microsoft 365 admin center"
+      ],
+      "category": "SharePoint Administration"
+    },
+    {
+      "title": "Agent registry",
+      "url": "https://learn.microsoft.com/en-us/microsoft-agent-365/admin/agent-registry-overview",
+      "status": "new",
+      "lastUpdate": "October 23, 2026",
+      "description": "Learn how to use Agent Registry in the Microsoft 365 admin center to manage, govern, and audit agents across your organization.",
+      "about": "Learn how to use Agent Registry in the Microsoft 365 admin center to manage, govern, and audit agents across your organization. Key topics include: Manage agent registry in Microsoft 365 admin center, View agent registry, Agent types, How one agent can appear as multiple entries.",
+      "changes": [
+        "New page added to documentation",
+        "Covers sections: Manage agent registry in Microsoft 365 admin center, View agent registry, Agent types, How one agent can appear as multiple entries, Agent registry summary"
+      ],
+      "category": "SharePoint Agents"
+    },
+    {
+      "title": "Agent requests",
+      "url": "https://learn.microsoft.com/en-us/microsoft-agent-365/admin/agent-requests",
+      "status": "new",
+      "lastUpdate": "October 23, 2026",
+      "description": "Learn how to review, approve, update, or reject agent requests in Microsoft 365 admin center to control rollout and governance. Get started now.",
+      "about": "Learn how to review, approve, update, or reject agent requests in Microsoft 365 admin center to control rollout and governance. Get started now. Key topics include: Manage agent requests in Microsoft 365 admin center, Agent registry filters, Actions for requested agents, Requested agents pending review.",
+      "changes": [
+        "New page added to documentation",
+        "Covers sections: Manage agent requests in Microsoft 365 admin center, Agent registry filters, Actions for requested agents, Requested agents pending review, Requested agents pending update"
+      ],
+      "category": "SharePoint Agents"
+    },
+    {
+      "title": "Local agents",
+      "url": "https://learn.microsoft.com/en-us/microsoft-agent-365/admin/agent-local",
+      "status": "new",
+      "lastUpdate": "October 23, 2026",
+      "description": "Understand Local Agents in Microsoft 365 admin center.",
+      "about": "Understand Local Agents in Microsoft 365 admin center. Key topics include: Local agents in Microsoft 365 admin center (Preview), Prerequisites, What are Local Agents?, Available features.",
+      "changes": [
+        "New page added to documentation",
+        "Covers sections: Local agents in Microsoft 365 admin center (Preview), Prerequisites, What are Local Agents?, Available features, Access the Local Agent (Frontier) page"
+      ],
+      "category": "AI in SharePoint"
+    },
+    {
+      "title": "Agent details",
+      "url": "https://learn.microsoft.com/en-us/microsoft-agent-365/admin/agent-details",
+      "status": "new",
+      "lastUpdate": "October 23, 2026",
+      "description": "Understand agent details in Microsoft 365 admin center.",
+      "about": "Understand agent details in Microsoft 365 admin center. Key topics include: Understand agent details in Microsoft 365 admin center, View agent details, Tag an agent, Tabs provided within agent details.",
+      "changes": [
+        "New page added to documentation",
+        "Covers sections: Understand agent details in Microsoft 365 admin center, View agent details, Tag an agent, Tabs provided within agent details, Agent details"
+      ],
+      "category": "SharePoint Agents"
+    },
+    {
+      "title": "Agents on multiple tenants",
+      "url": "https://learn.microsoft.com/en-us/microsoft-agent-365/admin/agent-multi-tenant",
+      "status": "new",
+      "lastUpdate": "October 23, 2026",
+      "description": "Manage agents across multiple tenants in the Microsoft 365 admin center.",
+      "about": "Manage agents across multiple tenants in the Microsoft 365 admin center. Key topics include: Manage agents across multiple tenants in the Microsoft 365 admin center (preview), Before you begin, Who should use this experience, Terminology.",
+      "changes": [
+        "New page added to documentation",
+        "Covers sections: Manage agents across multiple tenants in the Microsoft 365 admin center (preview), Before you begin, Who should use this experience, Terminology, How multi-tenant management differs from single-tenant management"
+      ],
+      "category": "SharePoint Agents"
+    },
+    {
+      "title": "Manage agent actions",
+      "url": "https://learn.microsoft.com/en-us/microsoft-agent-365/admin/agent-actions",
+      "status": "new",
+      "lastUpdate": "October 23, 2026",
+      "description": "Governance and lifecycle actions for agents available in the Microsoft 365 admin center.",
+      "about": "Governance and lifecycle actions for agents available in the Microsoft 365 admin center. Key topics include: Governance and lifecycle actions for agents available in Microsoft 365 admin center, Agent actions, Install agents, Uninstall agents.",
+      "changes": [
+        "New page added to documentation",
+        "Covers sections: Governance and lifecycle actions for agents available in Microsoft 365 admin center, Agent actions, Install agents, Uninstall agents, Activate agents"
+      ],
+      "category": "SharePoint Agents"
+    },
+    {
+      "title": "Manage agent instances",
+      "url": "https://learn.microsoft.com/en-us/microsoft-agent-365/admin/manage-agent-instances",
+      "status": "new",
+      "lastUpdate": "October 23, 2026",
+      "description": "Manage agent instances in Microsoft 365 admin center.",
+      "about": "Manage agent instances in Microsoft 365 admin center. Key topics include: Manage agent instances in Microsoft 365 admin center, Block agent instances, Delete agent instances.",
+      "changes": [
+        "New page added to documentation",
+        "Covers sections: Manage agent instances in Microsoft 365 admin center, Block agent instances, Delete agent instances"
+      ],
+      "category": "SharePoint Agents"
+    },
+    {
+      "title": "Create agentic user instances on behalf of managers",
+      "url": "https://learn.microsoft.com/en-us/microsoft-agent-365/admin/create-agentic-user-instances",
+      "status": "new",
+      "lastUpdate": "October 23, 2026",
+      "description": "Learn how Global Admins and AI Admins can create agentic user instances from activated agent templates on behalf of managers in the Microsoft 365 admin center.",
+      "about": "Learn how Global Admins and AI Admins can create agentic user instances from activated agent templates on behalf of managers in the Microsoft 365 admin center. Key topics include: Create agentic user instances on behalf of managers, Who should read this guide, Key concepts, Roles and responsibilities.",
+      "changes": [
+        "New page added to documentation",
+        "Covers sections: Create agentic user instances on behalf of managers, Who should read this guide, Key concepts, Roles and responsibilities, Key terminology"
+      ],
+      "category": "SharePoint Agents"
+    },
+    {
+      "title": "Manage connected agents",
+      "url": "https://learn.microsoft.com/en-us/microsoft-agent-365/admin/manage-connected-agents",
+      "status": "new",
+      "lastUpdate": "October 23, 2026",
+      "description": "View, add, remove, and make connected agents available to users in the Microsoft 365 admin center.",
+      "about": "View, add, remove, and make connected agents available to users in the Microsoft 365 admin center. Key topics include: Manage connected agents in the Microsoft 365 admin center, What are connected agents, Key details, Connect agents to Researcher or Sales.",
+      "changes": [
+        "New page added to documentation",
+        "Covers sections: Manage connected agents in the Microsoft 365 admin center, What are connected agents, Key details, Connect agents to Researcher or Sales, Make connected agents available to users"
+      ],
+      "category": "SharePoint Agents"
+    },
+    {
+      "title": "Overview of the Tools page",
+      "url": "https://learn.microsoft.com/en-us/microsoft-agent-365/admin/agent-tools-overview",
+      "status": "new",
+      "lastUpdate": "October 23, 2026",
+      "description": "Learn about the Tools page in the Microsoft 365 admin center, where you can view and manage agent tools and MCP servers available in your tenant.",
+      "about": "Learn about the Tools page in the Microsoft 365 admin center, where you can view and manage agent tools and MCP servers available in your tenant. Key topics include: Overview of the Tools page in Microsoft 365 admin center, Key concepts, View the tools registry, Key components of the Tools page.",
+      "changes": [
+        "New page added to documentation",
+        "Covers sections: Overview of the Tools page in Microsoft 365 admin center, Key concepts, View the tools registry, Key components of the Tools page, Actions"
+      ],
+      "category": "SharePoint Agents"
+    },
+    {
+      "title": "Manage plugins, skills, and MCP servers",
+      "url": "https://learn.microsoft.com/en-us/microsoft-agent-365/admin/manage-plugins-skills-mcp-servers",
+      "status": "new",
+      "lastUpdate": "October 23, 2026",
+      "description": "Learn how to manage plugin and skill availability, review requests, and govern MCP servers and their tools in the Microsoft 365 admin center.",
+      "about": "Learn how to manage plugin and skill availability, review requests, and govern MCP servers and their tools in the Microsoft 365 admin center. Key topics include: Manage plugins, skills, and MCP servers, Manage plugin availability at the organization level, Manage plugin availability for users, Review plugin access requests.",
+      "changes": [
+        "New page added to documentation",
+        "Covers sections: Manage plugins, skills, and MCP servers, Manage plugin availability at the organization level, Manage plugin availability for users, Review plugin access requests, Upload plugins or skills"
+      ],
+      "category": "SharePoint Agents"
+    },
+    {
+      "title": "Manage Tools Gateway",
+      "url": "https://learn.microsoft.com/en-us/microsoft-agent-365/admin/manage-tools-gateway",
+      "status": "new",
+      "lastUpdate": "October 23, 2026",
+      "description": "Learn how to connect an AI Gateway or Azure API Management instance to the Microsoft 365 admin center to discover and govern registered MCP servers.",
+      "about": "Learn how to connect an AI Gateway or Azure API Management instance to the Microsoft 365 admin center to discover and govern registered MCP servers. Key topics include: Manage Tools Gateway, Capabilities, Prerequisites, Connect your gateway.",
+      "changes": [
+        "New page added to documentation",
+        "Covers sections: Manage Tools Gateway, Capabilities, Prerequisites, Connect your gateway, Review and govern MCP servers"
+      ],
+      "category": "SharePoint Agents"
+    },
+    {
+      "title": "Bring your own (BYO) MCP server",
+      "url": "https://learn.microsoft.com/en-us/microsoft-agent-365/admin/manage-byo-mcp-server",
+      "status": "new",
+      "lastUpdate": "October 23, 2026",
+      "description": "Learn how to register, review, use, monitor, and manage your own remote MCP servers with Microsoft Agent 365 for centralized governance and observability.",
+      "about": "Learn how to register, review, use, monitor, and manage your own remote MCP servers with Microsoft Agent 365 for centralized governance and observability. Key topics include: Bring your own (BYO) MCP server, How a BYO MCP server works, Register a remote MCP server, Developer prerequisites.",
+      "changes": [
+        "New page added to documentation",
+        "Covers sections: Bring your own (BYO) MCP server, How a BYO MCP server works, Register a remote MCP server, Developer prerequisites, Install the Agent 365 CLI"
+      ],
+      "category": "SharePoint Agents"
+    },
+    {
+      "title": "Agent tenant settings",
+      "url": "https://learn.microsoft.com/en-us/microsoft-agent-365/admin/agent-settings",
+      "status": "new",
+      "lastUpdate": "October 23, 2026",
+      "description": "Agent settings in Microsoft 365 admin center.",
+      "about": "Agent settings in Microsoft 365 admin center. Key topics include: Agent settings in Microsoft 365 admin center, Overview, Agent management rules, Supported rule-based bulk actions.",
+      "changes": [
+        "New page added to documentation",
+        "Covers sections: Agent settings in Microsoft 365 admin center, Overview, Agent management rules, Supported rule-based bulk actions, Install Microsoft agents"
+      ],
+      "category": "SharePoint Administration"
+    },
+    {
+      "title": "Shadow AI",
+      "url": "https://learn.microsoft.com/en-us/microsoft-agent-365/admin/agent-shadow-ai",
+      "status": "new",
+      "lastUpdate": "October 23, 2026",
+      "description": "Understand Shadow AI in Microsoft 365 admin center.",
+      "about": "Understand Shadow AI in Microsoft 365 admin center. Key topics include: Shadow AI in Microsoft 365 admin center (Preview), Prerequisites, What is Shadow AI?, Available features.",
+      "changes": [
+        "New page added to documentation",
+        "Covers sections: Shadow AI in Microsoft 365 admin center (Preview), Prerequisites, What is Shadow AI?, Available features, Access the Shadow AI (Frontier) agent"
+      ],
+      "category": "Security & Access"
+    },
+    {
+      "title": "Manage agents for Copilot",
+      "url": "https://learn.microsoft.com/en-us/microsoft-agent-365/admin/manage-copilot-agents-integrated-apps",
+      "status": "new",
+      "lastUpdate": "October 23, 2026",
+      "description": "Manage agents in the Microsoft 365 admin center. Learn how to enable, assign, block, or remove agents to optimize your organization&#39;s agentic experience.",
+      "about": "Manage agents in the Microsoft 365 admin center. Learn how to enable, assign, block, or remove agents to optimize your organization&#39;s agentic experience. Key topics include: Manage agents in the Microsoft 365 admin center, Overview, Agent types you can manage, Get started.",
+      "changes": [
+        "New page added to documentation",
+        "Covers sections: Manage agents in the Microsoft 365 admin center, Overview, Agent types you can manage, Get started, Related articles"
+      ],
+      "category": "Copilot Readiness"
+    }
+  ]
+}
