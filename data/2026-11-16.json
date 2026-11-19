@@ -1,0 +1,32 @@
+{
+  "date": "2026-11-16",
+  "totalChanged": 2,
+  "pages": [
+    {
+      "title": "Restrict external sharing by agentic users in SharePoint and OneDrive",
+      "url": "https://learn.microsoft.com/en-us/sharepoint/agentic-users-governance-restrict-share-external-agentic-users",
+      "status": "new",
+      "lastUpdate": "November 13, 2026",
+      "description": "Restrict external sharing for agentic users in SharePoint and OneDrive. Learn how to configure the tenant-level policy with PowerShell to keep content internal.",
+      "about": "Restrict external sharing for agentic users in SharePoint and OneDrive. Learn how to configure the tenant-level policy with PowerShell to keep content internal. Key topics include: When to use this policy, How the policy works, Prerequisites, Configure the policy by using PowerShell, Allow specific agentic users to share content externally.",
+      "changes": [
+        "New page added to documentation",
+        "Covers sections: When to use this policy, How the policy works, Prerequisites, Configure the policy by using PowerShell, Allow specific agentic users to share content externally, FAQ, Related information"
+      ],
+      "category": "SharePoint Agents"
+    },
+    {
+      "title": "Review application access with App Intelligence",
+      "url": "https://learn.microsoft.com/en-us/sharepoint/app-intelligence",
+      "status": "new",
+      "lastUpdate": "November 12, 2026",
+      "description": "Learn how SharePoint administrators can prioritize and investigate non-Microsoft app access with App Intelligence.",
+      "about": "Learn how SharePoint administrators can prioritize and investigate non-Microsoft app access with App Intelligence. Key topics include: Availability and prerequisites, Review applications with App Intelligence, Data and coverage.",
+      "changes": [
+        "New page added to documentation",
+        "Covers sections: Availability and prerequisites, Review applications with App Intelligence, Data and coverage, App Intelligence FAQ"
+      ],
+      "category": "SharePoint Advanced Management"
+    }
+  ]
+}

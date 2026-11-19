@@ -1,0 +1,209 @@
+{
+  "date": "2026-11-09",
+  "totalChanged": 16,
+  "pages": [
+    {
+      "title": "Microsoft 365 Copilot Chat documentation",
+      "url": "https://learn.microsoft.com/en-us/copilot/microsoft-copilot",
+      "status": "deleted",
+      "lastUpdate": "February 5, 2026",
+      "description": "Learn about Copilot Chat, your everyday AI companion, providing AI-powered chat for the web. Find resources to manage it for your organization.",
+      "about": "Former landing page for Microsoft 365 Copilot Chat documentation. It is no longer listed in the Copilot extensibility TOC; the new Microsoft Copilot hub replaces it.",
+      "changes": [
+        "Page removed from the Microsoft 365 Copilot extensibility table of contents",
+        "Copilot Chat documentation consolidated into the new Microsoft Copilot hub"
+      ],
+      "category": "Copilot Readiness"
+    },
+    {
+      "title": "Overview",
+      "url": "https://learn.microsoft.com/en-us/copilot/overview",
+      "status": "deleted",
+      "lastUpdate": "August 18, 2026",
+      "description": "Microsoft Copilot Chat (formerly Microsoft Copilot) protects workplace AI-powered chats providing enterprise data protection to keep organizations safe.",
+      "about": "Copilot Chat overview page covering enterprise data protection for workplace AI chats. Removed from the Copilot extensibility TOC.",
+      "changes": [
+        "Page removed from the Microsoft 365 Copilot extensibility table of contents",
+        "Copilot Chat documentation consolidated into the new Microsoft Copilot hub"
+      ],
+      "category": "Copilot Readiness"
+    },
+    {
+      "title": "Privacy and protections",
+      "url": "https://learn.microsoft.com/en-us/copilot/privacy-and-protections",
+      "status": "deleted",
+      "lastUpdate": "April 15, 2026",
+      "description": "Microsoft 365 Copilot Chat protects workplace AI-powered web chats by providing enterprise data protection to keep organizations safe. Learn about the data protections, authentication, authorization, and GDPR compliance.",
+      "about": "Copilot Chat page on data protections, authentication, authorization, and GDPR compliance. Removed from the Copilot extensibility TOC.",
+      "changes": [
+        "Page removed from the Microsoft 365 Copilot extensibility table of contents",
+        "Copilot Chat documentation consolidated into the new Microsoft Copilot hub"
+      ],
+      "category": "Copilot Readiness"
+    },
+    {
+      "title": "Manage agents",
+      "url": "https://learn.microsoft.com/en-us/copilot/manage",
+      "status": "deleted",
+      "lastUpdate": "August 18, 2026",
+      "description": "Learn how to turn on Microsoft Copilot Chat for your organization.",
+      "about": "Admin page on turning on Microsoft Copilot Chat for an organization. Removed from the 'Publish and manage agents' TOC section.",
+      "changes": [
+        "Page removed from the 'Publish and manage agents' section of the TOC"
+      ],
+      "category": "Copilot Readiness"
+    },
+    {
+      "title": "Agents",
+      "url": "https://learn.microsoft.com/en-us/copilot/agents",
+      "status": "deleted",
+      "lastUpdate": "February 5, 2026",
+      "description": "Guidelines on use of agents in Microsoft 365 Copilot Chat.",
+      "about": "Guidelines for using agents in Microsoft 365 Copilot Chat. Removed from the Copilot extensibility TOC.",
+      "changes": [
+        "Page removed from the Microsoft 365 Copilot extensibility table of contents",
+        "Copilot Chat documentation consolidated into the new Microsoft Copilot hub"
+      ],
+      "category": "Copilot Readiness"
+    },
+    {
+      "title": "Copilot Chat in Edge",
+      "url": "https://learn.microsoft.com/en-us/copilot/edge",
+      "status": "deleted",
+      "lastUpdate": "February 20, 2026",
+      "description": "Learn how to use Microsoft 365 Copilot Chat in Edge.",
+      "about": "How to use Microsoft 365 Copilot Chat in Microsoft Edge. Removed from the Copilot extensibility TOC.",
+      "changes": [
+        "Page removed from the Microsoft 365 Copilot extensibility table of contents",
+        "Copilot Chat documentation consolidated into the new Microsoft Copilot hub"
+      ],
+      "category": "Copilot Readiness"
+    },
+    {
+      "title": "FAQ",
+      "url": "https://learn.microsoft.com/en-us/copilot/faq",
+      "status": "deleted",
+      "lastUpdate": "April 20, 2026",
+      "description": "See common questions and answers about Microsoft 365 Copilot Chat.",
+      "about": "Frequently asked questions about Microsoft 365 Copilot Chat. Removed from the Copilot extensibility TOC.",
+      "changes": [
+        "Page removed from the Microsoft 365 Copilot extensibility table of contents",
+        "Copilot Chat documentation consolidated into the new Microsoft Copilot hub"
+      ],
+      "category": "Copilot Readiness"
+    },
+    {
+      "title": "Learning resources",
+      "url": "https://learn.microsoft.com/en-us/collections/p11pb18wmq6xqq",
+      "status": "deleted",
+      "lastUpdate": "September 9, 2024",
+      "description": "Microsoft Learn Collections",
+      "about": "Microsoft Learn collection linked from the 'Get started' section. Removed from the TOC.",
+      "changes": [
+        "Link removed from the 'Get started' section of the TOC"
+      ],
+      "category": "Copilot Readiness"
+    },
+    {
+      "title": "Extend with Copilot Studio",
+      "url": "https://learn.microsoft.com/en-us/microsoft-copilot-studio/microsoft-copilot-extend-copilot-extensions",
+      "status": "deleted",
+      "lastUpdate": "February 27, 2026",
+      "description": "Use agents in Microsoft Copilot Studio to extend Microsoft 365 Copilot and offer a more focused conversational experience.",
+      "about": "Guide to extending Microsoft 365 Copilot with Copilot Studio agents. Removed from the 'Build a declarative agent' TOC section.",
+      "changes": [
+        "Page removed from the 'Build an agent > Build a declarative agent' section of the TOC"
+      ],
+      "category": "Copilot Readiness"
+    },
+    {
+      "title": ".NET SDK",
+      "url": "https://learn.microsoft.com/en-us/dotnet/api/",
+      "status": "deleted",
+      "lastUpdate": "November 11, 2025",
+      "description": "Explore Microsoft's comprehensive .NET API browser. Your ultimate resource for all .NET-based APIs. Start your search now.",
+      "about": ".NET API browser link listed under the SDK reference for Microsoft 365 Agents SDK and Teams SDK. Removed from both TOC locations.",
+      "changes": [
+        "Link removed from the Microsoft 365 Agents SDK and Teams SDK reference sections"
+      ],
+      "category": "Copilot Readiness"
+    },
+    {
+      "title": "Extend agents at scale with Agent 365 (early access preview)",
+      "url": "https://learn.microsoft.com/en-us/microsoft-agent-365/overview",
+      "status": "deleted",
+      "lastUpdate": "April 22, 2026",
+      "description": "Discover how Microsoft Agent 365 empowers organizations with secure, scalable, and compliant AI agents to enhance productivity and drive measurable outcomes.",
+      "about": "Overview of Microsoft Agent 365 (early access preview). Removed from the Copilot extensibility TOC; Agent 365 admin content now lives in the Microsoft 365 admin center docs.",
+      "changes": [
+        "Page removed from the Copilot extensibility TOC"
+      ],
+      "category": "Copilot Readiness"
+    },
+    {
+      "title": "Terms of use (preview)",
+      "url": "https://learn.microsoft.com/en-us/legal/work-iq-apis/terms-of-use",
+      "status": "deleted",
+      "lastUpdate": "April 30, 2026",
+      "description": "Terms of use for Microsoft Work IQ APIs (preview)",
+      "about": "Terms of use for the Microsoft Work IQ APIs (preview). Removed from the 'Enhance AI solutions with Work IQ APIs' TOC section.",
+      "changes": [
+        "Page removed from the 'Enhance AI solutions with Work IQ APIs' section of the TOC"
+      ],
+      "category": "Copilot Readiness"
+    },
+    {
+      "title": "Deploy Copilot connectors",
+      "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/connectors/deployment-overview",
+      "status": "deleted",
+      "lastUpdate": "September 22, 2026",
+      "description": "Learn how to deploy and customize Copilot connectors in the Microsoft 365 admin center.",
+      "about": "How to deploy and customize Copilot connectors in the Microsoft 365 admin center. Removed from the 'Make plugins and agents available' TOC section.",
+      "changes": [
+        "Page removed from the 'Plugins > Make available and govern' section of the TOC"
+      ],
+      "category": "Copilot Readiness"
+    },
+    {
+      "title": "Microsoft 365 Copilot extensibility",
+      "url": "https://learn.microsoft.com/en-us/copilot/",
+      "status": "new",
+      "lastUpdate": "November 4, 2026",
+      "description": "Technical documentation and other resources for Microsoft Copilot, including Copilot Chat and agents.",
+      "about": "Technical documentation and other resources for Microsoft Copilot, including Copilot Chat and agents. Key topics include: Microsoft Copilot documentation, Extending Microsoft Copilot.",
+      "changes": [
+        "New page added to documentation",
+        "Covers sections: Microsoft Copilot documentation, Extending Microsoft Copilot, Keep exploring"
+      ],
+      "category": "Copilot Readiness"
+    },
+    {
+      "title": "Using the Announcements web part",
+      "url": "https://learn.microsoft.com/en-us/sharepoint/homesites/announcements-web-part",
+      "status": "updated",
+      "lastUpdate": "November 3, 2026",
+      "description": "Create, schedule, and manage targeted messages with the Announcements web part in the SharePoint app in Teams to reach your organization.",
+      "about": "This page covers the Announcements web part in the SharePoint app in Teams: when to use announcements, how to create, schedule, and manage them from the web part, and announcements for frontline workers.",
+      "changes": [
+        "Rebranding: 'Viva Connections' / 'Connections' references replaced with 'SharePoint app in Teams', including the page title",
+        "Section renamed: 'Manage announcements from the announcements page' → 'Manage announcements from the Announcements web part'",
+        "Section removed: 'How announcements display in Connections'",
+        "Removed the note that announcements are unavailable in GCC, GCC High, and DoD; authoring permissions now reference only the SharePoint home site"
+      ],
+      "category": "SharePoint Administration"
+    },
+    {
+      "title": "SharePoint app in Teams extensibility",
+      "url": "https://learn.microsoft.com/en-us/sharepoint/dev/spfx/viva/overview-viva-connections",
+      "status": "new",
+      "lastUpdate": "May 22, 2025",
+      "description": "Build engaging experiences for Microsoft Viva Connections with the SharePoint Framework.",
+      "about": "Build engaging experiences for Microsoft Viva Connections with the SharePoint Framework. Key topics include: Extensibility opportunities, Start building for Microsoft Viva Connections.",
+      "changes": [
+        "New page added to documentation (newly linked from the SharePoint home sites section)",
+        "Covers sections: Extensibility opportunities, Start building for Microsoft Viva Connections"
+      ],
+      "category": "SharePoint Administration"
+    }
+  ]
+}
